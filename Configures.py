@@ -16,7 +16,8 @@ class DataParser():
 class ModelParser():
     def __init__(self):
         super().__init__()
-        self.device: int = 0
+        #self.device: int = 0
+        self.device: str = 'cpu'
         self.model_name: str = 'gin' 
         self.checkpoint: str = './checkpoint'
         self.concate: bool = False                     
