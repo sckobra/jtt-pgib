@@ -6,8 +6,11 @@ from typing import List
 class DataParser():
     def __init__(self):
         super().__init__()
-        self.dataset_name ='MUTAG'
-        self.dataset_dir = './datasets'
+        #self.dataset_name ='MUTAG'
+        #self.dataset_dir = './datasets'
+        
+        self.dataset_name = 'SPMotif-0.333'
+        self.dataset_dir = './DIR-GNN/data'
         self.task = None
         self.random_split: bool = True
         self.data_split_ratio: List = [0.8, 0.1, 0.1]   
@@ -40,10 +43,10 @@ class ModelParser():
         self.cont = True 
 
     def process_args(self) -> None:
-        if torch.cuda.is_available():
-            self.device = torch.device('cuda', self.device_id)
-        else:
-            pass
+        #if torch.cuda.is_available():
+        #    self.device = torch.device('cuda', self.device_id)
+        #else:
+        pass
 
 
 
@@ -76,7 +79,7 @@ class TrainParser():
         self.learning_rate = 0.005 #0.005 
         self.batch_size = 24
         self.weight_decay = 0.0
-        self.max_epochs = 300 
+        self.max_epochs = 2 #change back 300
         self.save_epoch = 10
         self.early_stopping = 10000 
         self.last_layer_optimizer_lr = 1e-4           

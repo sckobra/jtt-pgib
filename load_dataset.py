@@ -103,6 +103,48 @@ def read_ba2motif_data(folder: str, prefix):
     return data_list
 
 
+def read_spmotif_data(folder: str, filename: str):
+    """Read a single SPMotif .npy file and return list of Data objects"""
+    edge_index_list, label_list, ground_truth_list, role_id_list, pos_list = np.load(
+        os.path.join(folder, filename), allow_pickle=True)
+
+    data_list = []
+    for idx, (edge_index, y, ground_truth, z, p) in enumerate(
+            zip(edge_index_list, label_list, ground_truth_list, role_id_list, pos_list)):
+        edge_index = torch.tensor(edge_index, dtype=torch.long)
+        node_idx = torch.unique(edge_index)
+        x = torch.rand((node_idx.size(0), 4))
+        edge_attr = torch.ones(edge_index.size(1), 1)
+        y = torch.tensor(y, dtype=torch.long)
+        data = Data(x=x, y=y, edge_index=edge_index, edge_attr=edge_attr)
+        data_list.append(data)
+    return data_list
+
+
+class SPMotifDataset:
+    """Simple wrapper for SPMotif data"""
+    def __init__(self, data_list):
+        self.data_list = data_list
+        self.num_node_features = 4
+        self.num_classes = 3
+
+    def __len__(self):
+        return len(self.data_list)
+
+    def __getitem__(self, idx):
+        return self.data_list[idx]
+
+
+def load_SPMotif(dataset_dir, dataset_name):
+    """Load SPMotif dataset by combining train/val/test splits"""
+    raw_dir = os.path.join(dataset_dir, dataset_name, 'raw')
+    train_data = read_spmotif_data(raw_dir, 'train.npy')
+    val_data = read_spmotif_data(raw_dir, 'val.npy')
+    test_data = read_spmotif_data(raw_dir, 'test.npy')
+    all_data = train_data + val_data + test_data
+    return SPMotifDataset(all_data)
+
+
 def get_dataset(dataset_dir, dataset_name, task=None):
     sync_dataset_dict = {
         'BA_2Motifs'.lower(): 'BA_2Motifs',
@@ -118,6 +160,8 @@ def get_dataset(dataset_dir, dataset_name, task=None):
 
     if dataset_name.lower() == 'MUTAG'.lower():
         return load_MUTAG(dataset_dir, 'MUTAG')
+    elif dataset_name.lower().startswith('spmotif'):
+        return load_SPMotif(dataset_dir, dataset_name)
     elif dataset_name.lower() in sync_dataset_dict.keys():
         sync_dataset_filename = sync_dataset_dict[dataset_name.lower()]
         return load_syn_data(dataset_dir, sync_dataset_filename)
@@ -400,6 +444,7 @@ class BA2MotifDataset(InMemoryDataset):
             data_list = [self.get(idx) for idx in range(len(self))]
             data_list = [self.pre_transform(data) for data in data_list]
             self.data, self.slices = self.collate(data_list)
+            # seed ?
 
         torch.save(self.collate(data_list), self.processed_paths[0])
 

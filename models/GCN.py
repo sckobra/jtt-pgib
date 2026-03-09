@@ -33,7 +33,7 @@ class GCNNet(nn.Module):
         super(GCNNet, self).__init__()
         self.output_dim = output_dim
         self.latent_dim = model_args.latent_dim
-        self.device = torch.device('cuda:'+str(model_args.device))
+        self.device = torch.device(model_args.device)
         self.num_gnn_layers = len(self.latent_dim)
         self.dense_dim = self.latent_dim[-1]
         self.readout_layers = get_readout_layers(model_args.readout)
@@ -162,10 +162,7 @@ class GCNNet(nn.Module):
         normalize_new_adj = F.normalize(new_adj, p=1, dim=1)
         norm_diag = torch.diag(normalize_new_adj)
 
-        if torch.cuda.is_available():
-            EYE = torch.ones(2).cuda()
-        else:
-            EYE = torch.ones(2)
+        EYE = torch.ones(2)
 
         pos_penalty = torch.nn.MSELoss()(norm_diag, EYE)
 

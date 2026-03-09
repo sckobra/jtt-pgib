@@ -187,10 +187,7 @@ class GINNet(nn.Module):
         normalize_new_adj = F.normalize(new_adj, p=1, dim=1)
         norm_diag = torch.diag(normalize_new_adj)
 
-        if torch.cuda.is_available():
-            EYE = torch.ones(2).cuda()
-        else:
-            EYE = torch.ones(2)
+        EYE = torch.ones(2)
 
         pos_penalty = torch.nn.MSELoss()(norm_diag, EYE)
 
