@@ -48,6 +48,18 @@ torch-sparse              0.6.13
 
 
 
+## Metrics
+
+In addition to standard accuracy, this repo evaluates the following metrics:
+
+- **AUC-ROC:** Area under the ROC curve. For binary classification, computed directly; for multi-class, uses One-vs-Rest (OvR) averaging. Measures the model's ability to distinguish between classes regardless of threshold.
+
+- **Fidelity+ (necessity):** Fraction of test graphs where removing the explanation subgraph changes the model's prediction. High Fidelity+ means the explanation captures information the model truly relies on.
+
+- **Fidelity- (sufficiency):** Fraction of test graphs where keeping *only* the explanation subgraph changes the model's prediction. Low Fidelity- means the explanation alone is sufficient to preserve the prediction.
+
+- **Worst-Group Accuracy:** The minimum per-class accuracy across all graph label classes. Groups are defined by class label (g = y). Highlights how well the model performs on its hardest class — especially relevant for measuring JTT's impact on minority groups.
+
 ## Run
 
 ```
