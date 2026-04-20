@@ -1,6 +1,20 @@
-# Interpretable Prototype-based Graph Information Bottleneck
-The official source code for Interpretable Prototype-based Graph Information Bottleneck at NeurIPS 2023. 
- 
+# PGIB + JTT: Interpretable Prototype-based Graph Information Bottleneck with Just Train Twice
+
+This repository extends the original [PGIB (Interpretable Prototype-based Graph Information Bottleneck)](https://github.com/Samyu0304/graph-information-bottleneck-for-Subgraph-Recognition) from NeurIPS 2023 with the **Just Train Twice (JTT)** framework to improve robustness on minority/hard examples.
+
+## What's Added: JTT Integration
+
+[Just Train Twice (JTT)](https://arxiv.org/abs/2107.09044) is a simple two-stage training procedure for improving worst-group performance without requiring group annotations:
+
+1. **Stage 1 (ERM):** Train a standard model to identify misclassified examples.
+2. **Stage 2 (Upsampling):** Retrain on a dataset that upsamples the Stage 1 errors, causing the model to focus on hard/minority examples.
+
+In this repo, JTT is applied on top of PGIB's graph classification pipeline to improve performance on underrepresented graph structures.
+
+---
+
+## Original PGIB
+
 Overview of Interpretable Prototype-based Graph Information Bottleneck.
 ![architecture2_page-0001](./image_architecture.jpg)
 
