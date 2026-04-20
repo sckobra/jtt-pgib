@@ -53,7 +53,7 @@ def train_GC_first_pass(model_type):
 
     dataloader = get_dataloader(dataset, data_args.dataset_name, train_args.batch_size, data_split_ratio=data_args.data_split_ratio) # train, val, test dataloader 나눔
 
-    print('start training model==================')
+    print('training FIRST PASS===============')
 
     gnnNets = GnnNets(input_dim, output_dim, model_args) 
     ckpt_dir = f"./checkpoint/{data_args.dataset_name}/"
@@ -255,7 +255,7 @@ def train_GC(model_type):
 
     dataloader = get_dataloader(annotated_data, data_args.dataset_name, train_args.batch_size, data_split_ratio=data_args.data_split_ratio) # train, val, test dataloader 나눔
 
-    print('start training model==================')
+    print('training SECOND PASS====================')
 
     gnnNets = GnnNets(input_dim, output_dim, model_args)
     ckpt_dir = f"./checkpoint/{data_args.dataset_name}/"
@@ -400,7 +400,7 @@ def train_GC(model_type):
         append_record("Eval epoch {:2d}, loss: {:.3f}, acc: {:.3f}".format(epoch, eval_state['loss'], eval_state['acc']))
 
         test_state, _, _ = test_GC(dataloader['test'], gnnNets, eval_criterion)
-        print(f"Test Epoch: {epoch} | Loss: {test_state['loss']:.3f} | Acc: {test_state['acc']:.3f}")
+        print(f"Test Epoch: {epoch} | Loss: {test_state['loss']:.3f} | Acc: {test_state['acc']:.3f} | AUC: {test_state['auc']:.3f}")
 
         # only save the best model
         is_best = (eval_state['acc'] > best_acc)
@@ -426,8 +426,19 @@ def train_GC(model_type):
     gnnNets = torch.load(os.path.join(ckpt_dir, f'{model_args.model_name}_{model_type}_{model_args.readout}_best.pth')) # .to_device()
     gnnNets.to_device()
     test_state, _, _ = test_GC(dataloader['test'], gnnNets, eval_criterion)
-    print(f"Test | Dataset: {data_args.dataset_name:s} | model: {model_args.model_name:s}_{model_type:s} | Loss: {test_state['loss']:.3f} | Acc: {test_state['acc']:.3f}")
-    append_record("loss: {:.3f}, acc: {:.3f}".format(test_state['loss'], test_state['acc']))
+    print(f"Test | Dataset: {data_args.dataset_name:s} | model: {model_args.model_name:s}_{model_type:s} | Loss: {test_state['loss']:.3f} | Acc: {test_state['acc']:.3f} | AUC: {test_state['auc']:.3f}")
+    append_record("loss: {:.3f}, acc: {:.3f}, auc: {:.3f}".format(test_state['loss'], test_state['acc'], test_state['auc']))
+
+    # Fidelity evaluation
+    fid_pos, fid_neg, charact = compute_fidelity(dataloader['test'], gnnNets)
+    print(f"Fidelity+ (necessity): {fid_pos:.4f} | Fidelity- (sufficiency): {fid_neg:.4f} | Charact: {charact:.4f}")
+    append_record(f"fid+: {fid_pos:.4f}, fid-: {fid_neg:.4f}, charact: {charact:.4f}")
+
+    # Worst-group accuracy
+    worst_acc, group_accs = compute_worst_group_accuracy(dataloader['test'], gnnNets)
+    group_accs_str = ", ".join(f"class {k}: {v:.4f}" for k, v in sorted(group_accs.items()))
+    print(f"Worst-Group Accuracy: {worst_acc:.4f} | Per-Class: [{group_accs_str}]")
+    append_record(f"worst_group_acc: {worst_acc:.4f}, per_class: {group_accs}")
 
     return test_state['acc']
 
@@ -724,16 +735,6 @@ def calculate_auc(all_logits, all_labels):
     
 def compute_fidelity(test_dataloader, gnnNets):
     """
-    Compute fidelity metrics following PyG's GraphFramEx formulation.
-
-    For model explanations (PGIB explains its own predictions):
-        fid+ = 1 - (1/N) * sum( 1(y_complement == y_orig) )
-        fid- = 1 - (1/N) * sum( 1(y_subgraph == y_orig) )
-
-    The explanation subgraph is defined by the model's active_node_index
-    (nodes selected by the Gumbel-softmax assignment matrix).
-    Masking is done by zero-filling node features (same as my_mcts.py).
-
     High fid+ = removing explanation changes predictions (explanation is necessary/faithful).
     Low fid-  = keeping only explanation preserves predictions (explanation is sufficient).
     """

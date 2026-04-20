@@ -9,8 +9,8 @@ class DataParser():
         #self.dataset_name ='MUTAG'
         #self.dataset_dir = './datasets'
         
-        self.dataset_name = 'SPMotif-0.333'
-        self.dataset_dir = './DIR-GNN/data'
+        self.dataset_name = 'SPMotif-0.7'
+        self.dataset_dir = './data'
         self.task = None
         self.random_split: bool = True
         self.data_split_ratio: List = [0.8, 0.1, 0.1]   
@@ -79,7 +79,7 @@ class TrainParser():
         self.learning_rate = 0.005 #0.005 
         self.batch_size = 24
         self.weight_decay = 0.0
-        self.max_epochs = 2 #change back 300
+        self.max_epochs = 150
         self.save_epoch = 10
         self.early_stopping = 10000 
         self.last_layer_optimizer_lr = 1e-4           

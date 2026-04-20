@@ -1,10 +1,10 @@
-Epoch  0, loss: 1.428, acc: 0.373
-Eval epoch  0, loss: 1.092, acc: 0.372
-Epoch  1, loss: 1.359, acc: 0.390
-Eval epoch  1, loss: 1.107, acc: 0.349
-loss: 1.094, acc: 0.359
-Epoch  0, loss: 1.639, acc: 0.388
-Eval epoch  0, loss: 1.080, acc: 0.417
-Epoch  1, loss: 1.508, acc: 0.478
-Eval epoch  1, loss: 1.125, acc: 0.522
-loss: 1.180, acc: 0.472
+Epoch  0, loss: 1.448, acc: 0.386
+Eval epoch  0, loss: 1.111, acc: 0.365
+Epoch  1, loss: 1.396, acc: 0.394
+Eval epoch  1, loss: 1.076, acc: 0.426
+Epoch  2, loss: 1.314, acc: 0.518
+Eval epoch  2, loss: 0.922, acc: 0.588
+Epoch  3, loss: 1.211, acc: 0.578
+Eval epoch  3, loss: 0.912, acc: 0.554
+Epoch  4, loss: 1.184, acc: 0.595
+Eval epoch  4, loss: 0.817, acc: 0.601
