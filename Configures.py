@@ -9,7 +9,7 @@ class DataParser():
         #self.dataset_name ='MUTAG'
         #self.dataset_dir = './datasets'
         
-        self.dataset_name = 'SPMotif-0.7'
+        self.dataset_name = 'SPMotif-0.333'
         self.dataset_dir = './data'
         self.task = None
         self.random_split: bool = True

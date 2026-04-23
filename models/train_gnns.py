@@ -189,8 +189,16 @@ def train_GC_first_pass(model_type):
         print(f"Eval Epoch: {epoch} | Loss: {eval_state['loss']:.3f} | Acc: {eval_state['acc']:.3f}")
         append_record("Eval epoch {:2d}, loss: {:.3f}, acc: {:.3f}".format(epoch, eval_state['loss'], eval_state['acc']))
 
-        test_state, _, _ = test_GC(dataloader['test'], gnnNets, criterion) 
-        print(f"Test Epoch: {epoch} | Loss: {test_state['loss']:.3f} | Acc: {test_state['acc']:.3f}")           
+        test_state, _, _ = test_GC(dataloader['test'], gnnNets, criterion)
+        fid_pos, fid_neg, charact = compute_fidelity(dataloader['test'], gnnNets)
+        worst_acc, group_accs = compute_worst_group_accuracy(dataloader['test'], gnnNets)
+        group_accs_str = ", ".join(f"class {k}: {v:.4f}" for k, v in sorted(group_accs.items()))
+        print(f"Test Epoch: {epoch} | Loss: {test_state['loss']:.3f} | Acc: {test_state['acc']:.3f} | AUC: {test_state['auc']:.3f}")
+        print(f"  Fidelity+ : {fid_pos:.4f} | Fidelity-: {fid_neg:.4f} | Charact: {charact:.4f}")
+        print(f"  Worst-Group Acc: {worst_acc:.4f} | Per-Class: [{group_accs_str}]")
+        append_record("Test epoch {:2d}, loss: {:.3f}, acc: {:.3f}, auc: {:.3f}, fid+: {:.4f}, fid-: {:.4f}, charact: {:.4f}, worst_group_acc: {:.4f}, per_class: {}".format(
+            epoch, test_state['loss'], test_state['acc'], test_state['auc'],
+            fid_pos, fid_neg, charact, worst_acc, group_accs))
 
         # only save the best model
         is_best = (eval_state['acc'] > best_acc)
@@ -211,7 +219,7 @@ def train_GC_first_pass(model_type):
 
 
     print(f"The best validation accuracy is {best_acc}.")
-    
+
     # report test msg
     gnnNets = torch.load(os.path.join(ckpt_dir, f'{model_args.model_name}_{model_type}_{model_args.readout}_best.pth')) # .to_device()
     gnnNets.to_device()
@@ -400,7 +408,15 @@ def train_GC(model_type):
         append_record("Eval epoch {:2d}, loss: {:.3f}, acc: {:.3f}".format(epoch, eval_state['loss'], eval_state['acc']))
 
         test_state, _, _ = test_GC(dataloader['test'], gnnNets, eval_criterion)
+        fid_pos, fid_neg, charact = compute_fidelity(dataloader['test'], gnnNets)
+        worst_acc, group_accs = compute_worst_group_accuracy(dataloader['test'], gnnNets)
+        group_accs_str = ", ".join(f"class {k}: {v:.4f}" for k, v in sorted(group_accs.items()))
         print(f"Test Epoch: {epoch} | Loss: {test_state['loss']:.3f} | Acc: {test_state['acc']:.3f} | AUC: {test_state['auc']:.3f}")
+        print(f"  Fidelity+: {fid_pos:.4f} | Fidelity-: {fid_neg:.4f} | Charact: {charact:.4f}")
+        print(f"  Worst-Group Acc: {worst_acc:.4f} | Per-Class: [{group_accs_str}]")
+        append_record("Test epoch {:2d}, loss: {:.3f}, acc: {:.3f}, auc: {:.3f}, fid+: {:.4f}, fid-: {:.4f}, charact: {:.4f}, worst_group_acc: {:.4f}, per_class: {}".format(
+            epoch, test_state['loss'], test_state['acc'], test_state['auc'],
+            fid_pos, fid_neg, charact, worst_acc, group_accs))
 
         # only save the best model
         is_best = (eval_state['acc'] > best_acc)
