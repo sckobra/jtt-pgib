@@ -250,8 +250,8 @@ def train_GC_first_pass(model_type):
                 annotated_data.append(data)
 
     test_state, _, _ = test_GC(dataloader['test'], gnnNets, criterion)
-    print(f"Test | Dataset: {data_args.dataset_name:s} | model: {model_args.model_name:s}_{model_type:s} | Loss: {test_state['loss']:.3f} | Acc: {test_state['acc']:.3f}")
-    append_record("loss: {:.3f}, acc: {:.3f}".format(test_state['loss'], test_state['acc']))
+    print(f"Test | Dataset: {data_args.dataset_name:s} | model: {model_args.model_name:s}_{model_type:s} | Loss: {test_state['loss']:.3f} | Acc: {test_state['acc']:.3f} | AUC: {test_state['auc']:.3f}")
+    append_record("loss: {:.3f}, acc: {:.3f}, auc: {:.3f}".format(test_state['loss'], test_state['acc'], test_state['auc']))
 
     return test_state['acc'], annotated_data, dataset
 
