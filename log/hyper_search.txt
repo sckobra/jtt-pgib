@@ -1,8 +1,0 @@
-Epoch  0, loss: 1.472, acc: 0.376
-Eval epoch  0, loss: 1.096, acc: 0.377
-Test epoch  0, loss: 1.085, acc: 0.393, auc: 0.576, fid+: 0.5458, fid-: 0.5300, charact: 0.5051, worst_group_acc: 0.1740, per_class: {0: 0.5062034739454094, 1: 0.4441747572815534, 2: 0.17402597402597403}
-Epoch  1, loss: 1.343, acc: 0.475
-Eval epoch  1, loss: 1.221, acc: 0.459
-Test epoch  1, loss: 1.208, acc: 0.477, auc: 0.727, fid+: 0.2900, fid-: 0.2100, charact: 0.4243, worst_group_acc: 0.0545, per_class: {0: 0.4143920595533499, 1: 0.9441747572815534, 2: 0.05454545454545454}
-Epoch  2, loss: 1.153, acc: 0.588
-Eval epoch  2, loss: 0.912, acc: 0.570

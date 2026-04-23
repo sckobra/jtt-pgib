@@ -9,7 +9,8 @@ import pdb
 from torch_geometric.datasets import MoleculeNet
 from torch_geometric.utils import dense_to_sparse
 from torch.utils.data import random_split, Subset
-from torch_geometric.data import Data, InMemoryDataset, DataLoader, download_url, extract_zip
+from torch_geometric.data import Data, InMemoryDataset, download_url, extract_zip
+from torch_geometric.loader import DataLoader
 from torch_geometric.io import read_tu_data
 from typing import Callable, List, Optional
 import shutil
