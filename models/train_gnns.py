@@ -737,8 +737,8 @@ def calculate_auc(all_logits, all_labels):
     all_labels: torch.Tensor or np.array of shape (N)
     """
     # Convert to probabilities via Softmax
-    probs = F.softmax(torch.tensor(all_logits), dim=1).numpy()
-    labels = torch.tensor(all_labels).numpy()
+    probs = F.softmax(all_logits.clone().detach(), dim=1).numpy()
+    labels = all_labels.clone().detach().numpy()
     
     num_classes = probs.shape[1]
     
