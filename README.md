@@ -65,3 +65,14 @@ In addition to standard accuracy, this repo evaluates the following metrics:
 ```
 python -m models.train_gnns
 ```
+
+## Saving a Run Log
+
+After training completes, save the results to a timestamped file in `log/`:
+
+```
+cd log
+python save_run_log.py
+```
+
+This copies `log/hyper_search.txt` into `log/results_{dataset_name}_{datetime}.txt`.
