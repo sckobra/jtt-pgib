@@ -219,6 +219,7 @@ def train_GC_first_pass(model_type):
 
 
     print(f"The best validation accuracy is {best_acc}.")
+    append_record(f"Best validation accuracy: {best_acc:.3f}")
 
     # report test msg
     gnnNets = torch.load(os.path.join(ckpt_dir, f'{model_args.model_name}_{model_type}_{model_args.readout}_best.pth')) # .to_device()
@@ -437,6 +438,7 @@ def train_GC(model_type):
 
 
     print(f"The best validation accuracy is {best_acc}.")
+    append_record(f"Best validation accuracy: {best_acc:.3f}")
 
     # report test msg
     gnnNets = torch.load(os.path.join(ckpt_dir, f'{model_args.model_name}_{model_type}_{model_args.readout}_best.pth')) # .to_device()
