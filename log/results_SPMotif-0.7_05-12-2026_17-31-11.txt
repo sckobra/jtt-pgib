@@ -1,0 +1,906 @@
+Epoch  0, loss: 1.437, acc: 0.402
+Eval epoch  0, loss: 1.230, acc: 0.348
+Test epoch  0, loss: 1.269, acc: 0.337, auc: 0.555, fid+: 0.0158, fid-: 0.0175, charact: 0.0312, worst_group_acc: 0.0000, per_class: {0: 0.9801488833746899, 1: 0.0, 2: 0.015584415584415584}
+Epoch  1, loss: 1.399, acc: 0.419
+Eval epoch  1, loss: 1.099, acc: 0.370
+Test epoch  1, loss: 1.094, acc: 0.389, auc: 0.574, fid+: 0.7292, fid-: 0.7075, charact: 0.4175, worst_group_acc: 0.0026, per_class: {0: 0.2903225806451613, 1: 0.8519417475728155, 2: 0.0025974025974025974}
+Epoch  2, loss: 1.368, acc: 0.451
+Eval epoch  2, loss: 1.501, acc: 0.333
+Test epoch  2, loss: 1.431, acc: 0.369, auc: 0.595, fid+: 0.3842, fid-: 0.3808, charact: 0.4741, worst_group_acc: 0.0000, per_class: {0: 0.08684863523573201, 1: 0.9927184466019418, 2: 0.0}
+Epoch  3, loss: 1.322, acc: 0.498
+Eval epoch  3, loss: 0.983, acc: 0.500
+Test epoch  3, loss: 1.001, acc: 0.493, auc: 0.684, fid+: 0.6825, fid-: 0.6567, charact: 0.4568, worst_group_acc: 0.3375, per_class: {0: 0.337468982630273, 1: 0.5072815533980582, 2: 0.6285714285714286}
+Epoch  4, loss: 1.296, acc: 0.516
+Eval epoch  4, loss: 1.025, acc: 0.489
+Test epoch  4, loss: 1.036, acc: 0.497, auc: 0.683, fid+: 0.6592, fid-: 0.5633, charact: 0.5253, worst_group_acc: 0.4248, per_class: {0: 0.45905707196029777, 1: 0.42475728155339804, 2: 0.6181818181818182}
+Epoch  5, loss: 1.322, acc: 0.491
+Eval epoch  5, loss: 1.046, acc: 0.432
+Test epoch  5, loss: 1.056, acc: 0.439, auc: 0.662, fid+: 0.6675, fid-: 0.6000, charact: 0.5002, worst_group_acc: 0.1068, per_class: {0: 0.369727047146402, 1: 0.10679611650485436, 2: 0.7974025974025974}
+Epoch  6, loss: 1.333, acc: 0.480
+Eval epoch  6, loss: 0.986, acc: 0.498
+Test epoch  6, loss: 0.994, acc: 0.514, auc: 0.691, fid+: 0.6333, fid-: 0.5800, charact: 0.5051, worst_group_acc: 0.3945, per_class: {0: 0.3945409429280397, 1: 0.6286407766990292, 2: 0.4675324675324675}
+Epoch  7, loss: 1.265, acc: 0.524
+Eval epoch  7, loss: 0.970, acc: 0.531
+Test epoch  7, loss: 0.970, acc: 0.504, auc: 0.716, fid+: 0.5708, fid-: 0.5308, charact: 0.5150, worst_group_acc: 0.4935, per_class: {0: 0.5037220843672456, 1: 0.5679611650485437, 2: 0.4935064935064935}
+Epoch  8, loss: 1.269, acc: 0.523
+Eval epoch  8, loss: 0.927, acc: 0.503
+Test epoch  8, loss: 0.935, acc: 0.512, auc: 0.737, fid+: 0.5858, fid-: 0.4875, charact: 0.5467, worst_group_acc: 0.4126, per_class: {0: 0.49627791563275436, 1: 0.41262135922330095, 2: 0.5948051948051948}
+Epoch  9, loss: 1.245, acc: 0.532
+Eval epoch  9, loss: 1.046, acc: 0.453
+Test epoch  9, loss: 1.050, acc: 0.468, auc: 0.703, fid+: 0.6367, fid-: 0.4750, charact: 0.5755, worst_group_acc: 0.2233, per_class: {0: 0.3771712158808933, 1: 0.22330097087378642, 2: 0.812987012987013}
+Epoch 10, loss: 1.344, acc: 0.484
+Eval epoch 10, loss: 1.187, acc: 0.420
+Test epoch 10, loss: 1.208, acc: 0.407, auc: 0.664, fid+: 0.7208, fid-: 0.5450, charact: 0.5579, worst_group_acc: 0.0752, per_class: {0: 0.2679900744416873, 1: 0.07524271844660194, 2: 0.9090909090909091}
+Epoch 11, loss: 1.331, acc: 0.469
+Eval epoch 11, loss: 1.049, acc: 0.415
+Test epoch 11, loss: 1.094, acc: 0.432, auc: 0.632, fid+: 0.5108, fid-: 0.4533, charact: 0.5281, worst_group_acc: 0.2494, per_class: {0: 0.6277915632754343, 1: 0.4174757281553398, 2: 0.24935064935064935}
+Epoch 12, loss: 1.325, acc: 0.482
+Eval epoch 12, loss: 8.633, acc: 0.312
+Test epoch 12, loss: 10.512, acc: 0.344, auc: 0.610, fid+: 0.0633, fid-: 0.0450, charact: 0.1188, worst_group_acc: 0.0000, per_class: {0: 0.0, 1: 1.0, 2: 0.0}
+Epoch 13, loss: 1.292, acc: 0.517
+Eval epoch 13, loss: 1.103, acc: 0.417
+Test epoch 13, loss: 1.084, acc: 0.434, auc: 0.714, fid+: 0.2392, fid-: 0.1883, charact: 0.3695, worst_group_acc: 0.0052, per_class: {0: 0.9727047146401985, 1: 0.2912621359223301, 2: 0.005194805194805195}
+Epoch 14, loss: 1.248, acc: 0.534
+Eval epoch 14, loss: 0.970, acc: 0.555
+Test epoch 14, loss: 0.986, acc: 0.543, auc: 0.715, fid+: 0.7350, fid-: 0.5850, charact: 0.5305, worst_group_acc: 0.3375, per_class: {0: 0.337468982630273, 1: 0.5509708737864077, 2: 0.7506493506493507}
+Epoch 15, loss: 1.264, acc: 0.524
+Eval epoch 15, loss: 0.930, acc: 0.540
+Test epoch 15, loss: 0.963, acc: 0.520, auc: 0.703, fid+: 0.7092, fid-: 0.5483, charact: 0.5519, worst_group_acc: 0.4442, per_class: {0: 0.4441687344913151, 1: 0.5024271844660194, 2: 0.5818181818181818}
+Epoch 16, loss: 1.227, acc: 0.548
+Eval epoch 16, loss: 0.877, acc: 0.562
+Test epoch 16, loss: 0.939, acc: 0.551, auc: 0.759, fid+: 0.5242, fid-: 0.4917, charact: 0.5161, worst_group_acc: 0.3974, per_class: {0: 0.6600496277915633, 1: 0.5728155339805825, 2: 0.3974025974025974}
+Epoch 17, loss: 1.178, acc: 0.553
+Eval epoch 17, loss: 1.047, acc: 0.483
+Test epoch 17, loss: 1.053, acc: 0.488, auc: 0.709, fid+: 0.8417, fid-: 0.5533, charact: 0.5836, worst_group_acc: 0.2605, per_class: {0: 0.26054590570719605, 1: 0.2815533980582524, 2: 0.8831168831168831}
+Epoch 18, loss: 1.151, acc: 0.511
+Eval epoch 18, loss: 0.967, acc: 0.513
+Test epoch 18, loss: 0.957, acc: 0.516, auc: 0.720, fid+: 0.6808, fid-: 0.5825, charact: 0.5176, worst_group_acc: 0.3970, per_class: {0: 0.3970223325062035, 1: 0.7257281553398058, 2: 0.4857142857142857}
+Epoch 19, loss: 1.081, acc: 0.547
+Eval epoch 19, loss: 1.044, acc: 0.520
+Test epoch 19, loss: 1.053, acc: 0.524, auc: 0.724, fid+: 0.7017, fid-: 0.5525, charact: 0.5465, worst_group_acc: 0.1960, per_class: {0: 0.19602977667493796, 1: 0.470873786407767, 2: 0.9324675324675324}
+Epoch 20, loss: 1.179, acc: 0.488
+Eval epoch 20, loss: 0.987, acc: 0.509
+Test epoch 20, loss: 0.961, acc: 0.519, auc: 0.710, fid+: 0.7642, fid-: 0.6875, charact: 0.4436, worst_group_acc: 0.3449, per_class: {0: 0.34491315136476425, 1: 0.6771844660194175, 2: 0.587012987012987}
+Epoch 21, loss: 1.134, acc: 0.524
+Eval epoch 21, loss: 0.923, acc: 0.573
+Test epoch 21, loss: 0.915, acc: 0.573, auc: 0.773, fid+: 0.7600, fid-: 0.5825, charact: 0.5389, worst_group_acc: 0.2159, per_class: {0: 0.21588089330024815, 1: 0.6140776699029126, 2: 0.922077922077922}
+Epoch 22, loss: 1.088, acc: 0.554
+Eval epoch 22, loss: 0.997, acc: 0.506
+Test epoch 22, loss: 1.013, acc: 0.496, auc: 0.714, fid+: 0.8342, fid-: 0.5775, charact: 0.5609, worst_group_acc: 0.3002, per_class: {0: 0.3002481389578164, 1: 0.32524271844660196, 2: 0.9194805194805195}
+Epoch 23, loss: 1.150, acc: 0.513
+Eval epoch 23, loss: 0.943, acc: 0.546
+Test epoch 23, loss: 0.952, acc: 0.530, auc: 0.724, fid+: 0.7600, fid-: 0.5917, charact: 0.5312, worst_group_acc: 0.4320, per_class: {0: 0.5409429280397022, 1: 0.4320388349514563, 2: 0.6181818181818182}
+Epoch 24, loss: 1.142, acc: 0.532
+Eval epoch 24, loss: 1.018, acc: 0.508
+Test epoch 24, loss: 1.049, acc: 0.514, auc: 0.714, fid+: 0.8300, fid-: 0.5208, charact: 0.6076, worst_group_acc: 0.2864, per_class: {0: 0.36476426799007444, 1: 0.28640776699029125, 2: 0.8961038961038961}
+Epoch 25, loss: 1.152, acc: 0.512
+Eval epoch 25, loss: 0.975, acc: 0.487
+Test epoch 25, loss: 0.993, acc: 0.477, auc: 0.728, fid+: 0.4017, fid-: 0.2300, charact: 0.5279, worst_group_acc: 0.0000, per_class: {0: 0.9354838709677419, 1: 0.5194174757281553, 2: 0.0}
+Epoch 26, loss: 1.106, acc: 0.542
+Eval epoch 26, loss: 0.913, acc: 0.546
+Test epoch 26, loss: 0.915, acc: 0.550, auc: 0.747, fid+: 0.8067, fid-: 0.6033, charact: 0.5318, worst_group_acc: 0.3449, per_class: {0: 0.34491315136476425, 1: 0.4441747572815534, 2: 0.8623376623376623}
+Epoch 27, loss: 1.099, acc: 0.553
+Eval epoch 27, loss: 1.026, acc: 0.507
+Test epoch 27, loss: 1.009, acc: 0.522, auc: 0.726, fid+: 0.7617, fid-: 0.7242, charact: 0.4050, worst_group_acc: 0.2630, per_class: {0: 0.2630272952853598, 1: 0.7451456310679612, 2: 0.5688311688311688}
+Epoch 28, loss: 1.092, acc: 0.545
+Eval epoch 28, loss: 0.899, acc: 0.576
+Test epoch 28, loss: 0.896, acc: 0.574, auc: 0.755, fid+: 0.7058, fid-: 0.5625, charact: 0.5402, worst_group_acc: 0.5097, per_class: {0: 0.5459057071960298, 1: 0.5097087378640777, 2: 0.6883116883116883}
+Epoch 29, loss: 1.075, acc: 0.570
+Eval epoch 29, loss: 0.827, acc: 0.583
+Test epoch 29, loss: 0.854, acc: 0.579, auc: 0.768, fid+: 0.5017, fid-: 0.4500, charact: 0.5247, worst_group_acc: 0.4814, per_class: {0: 0.4813895781637717, 1: 0.5631067961165048, 2: 0.7532467532467533}
+Epoch 30, loss: 1.012, acc: 0.592
+Eval epoch 30, loss: 0.776, acc: 0.649
+Test epoch 30, loss: 0.810, acc: 0.630, auc: 0.804, fid+: 0.5475, fid-: 0.4917, charact: 0.5272, worst_group_acc: 0.4144, per_class: {0: 0.4143920595533499, 1: 0.7354368932038835, 2: 0.7688311688311689}
+Epoch 31, loss: 1.012, acc: 0.593
+Eval epoch 31, loss: 0.803, acc: 0.613
+Test epoch 31, loss: 0.831, acc: 0.602, auc: 0.801, fid+: 0.6117, fid-: 0.5292, charact: 0.5321, worst_group_acc: 0.5509, per_class: {0: 0.5508684863523573, 1: 0.6601941747572816, 2: 0.6077922077922078}
+Epoch 32, loss: 0.990, acc: 0.609
+Eval epoch 32, loss: 0.890, acc: 0.582
+Test epoch 32, loss: 0.905, acc: 0.592, auc: 0.789, fid+: 0.6083, fid-: 0.5550, charact: 0.5140, worst_group_acc: 0.5194, per_class: {0: 0.6104218362282878, 1: 0.5194174757281553, 2: 0.6181818181818182}
+Epoch 33, loss: 1.012, acc: 0.595
+Eval epoch 33, loss: 0.904, acc: 0.496
+Test epoch 33, loss: 1.048, acc: 0.482, auc: 0.771, fid+: 0.8450, fid-: 0.7867, charact: 0.3407, worst_group_acc: 0.2026, per_class: {0: 0.3250620347394541, 1: 0.8980582524271845, 2: 0.2025974025974026}
+Epoch 34, loss: 0.995, acc: 0.604
+Eval epoch 34, loss: 0.843, acc: 0.594
+Test epoch 34, loss: 0.863, acc: 0.563, auc: 0.793, fid+: 0.7783, fid-: 0.6583, charact: 0.4749, worst_group_acc: 0.3573, per_class: {0: 0.3573200992555831, 1: 0.8519417475728155, 2: 0.5324675324675324}
+Epoch 35, loss: 0.990, acc: 0.618
+Eval epoch 35, loss: 36.601, acc: 0.312
+Test epoch 35, loss: 35.909, acc: 0.343, auc: 0.585, fid+: 0.8300, fid-: 0.6600, charact: 0.4824, worst_group_acc: 0.0000, per_class: {0: 0.0, 1: 1.0, 2: 0.0}
+Epoch 36, loss: 1.156, acc: 0.520
+Eval epoch 36, loss: 1.045, acc: 0.539
+Test epoch 36, loss: 1.085, acc: 0.522, auc: 0.752, fid+: 0.7892, fid-: 0.4533, charact: 0.6459, worst_group_acc: 0.3350, per_class: {0: 0.4813895781637717, 1: 0.33495145631067963, 2: 0.7948051948051948}
+Epoch 37, loss: 1.130, acc: 0.559
+Eval epoch 37, loss: 1.039, acc: 0.560
+Test epoch 37, loss: 1.168, acc: 0.582, auc: 0.777, fid+: 0.4792, fid-: 0.4383, charact: 0.5171, worst_group_acc: 0.2878, per_class: {0: 0.2878411910669975, 1: 0.7257281553398058, 2: 0.7792207792207793}
+Epoch 38, loss: 1.043, acc: 0.603
+Eval epoch 38, loss: 0.795, acc: 0.627
+Test epoch 38, loss: 0.816, acc: 0.619, auc: 0.807, fid+: 0.4900, fid-: 0.5675, charact: 0.4595, worst_group_acc: 0.3499, per_class: {0: 0.34987593052109184, 1: 0.7014563106796117, 2: 0.8597402597402597}
+Epoch 39, loss: 0.993, acc: 0.612
+Eval epoch 39, loss: 0.954, acc: 0.570
+Test epoch 39, loss: 1.087, acc: 0.510, auc: 0.817, fid+: 0.8700, fid-: 0.7458, charact: 0.3934, worst_group_acc: 0.2468, per_class: {0: 0.32754342431761785, 1: 0.9441747572815534, 2: 0.24675324675324675}
+Epoch 40, loss: 0.934, acc: 0.636
+Eval epoch 40, loss: 0.800, acc: 0.617
+Test epoch 40, loss: 0.768, acc: 0.638, auc: 0.829, fid+: 0.7192, fid-: 0.6750, charact: 0.4477, worst_group_acc: 0.4839, per_class: {0: 0.4838709677419355, 1: 0.808252427184466, 2: 0.5194805194805194}
+Epoch 41, loss: 1.008, acc: 0.616
+Eval epoch 41, loss: 1.067, acc: 0.552
+Test epoch 41, loss: 1.098, acc: 0.579, auc: 0.797, fid+: 0.6733, fid-: 0.4425, charact: 0.6100, worst_group_acc: 0.3766, per_class: {0: 0.8486352357320099, 1: 0.5679611650485437, 2: 0.37662337662337664}
+Epoch 42, loss: 1.133, acc: 0.574
+Eval epoch 42, loss: 0.792, acc: 0.607
+Test epoch 42, loss: 0.796, acc: 0.618, auc: 0.808, fid+: 0.7217, fid-: 0.6092, charact: 0.5071, worst_group_acc: 0.4364, per_class: {0: 0.5905707196029777, 1: 0.7742718446601942, 2: 0.43636363636363634}
+Epoch 43, loss: 0.966, acc: 0.624
+Eval epoch 43, loss: 1.042, acc: 0.548
+Test epoch 43, loss: 1.008, acc: 0.587, auc: 0.808, fid+: 0.6158, fid-: 0.4675, charact: 0.5711, worst_group_acc: 0.5121, per_class: {0: 0.7369727047146402, 1: 0.5121359223300971, 2: 0.522077922077922}
+Epoch 44, loss: 1.006, acc: 0.610
+Eval epoch 44, loss: 0.956, acc: 0.579
+Test epoch 44, loss: 0.908, acc: 0.587, auc: 0.811, fid+: 0.5575, fid-: 0.5642, charact: 0.4892, worst_group_acc: 0.3226, per_class: {0: 0.3225806451612903, 1: 0.5728155339805825, 2: 0.9168831168831169}
+Epoch 45, loss: 1.109, acc: 0.558
+Eval epoch 45, loss: 1.277, acc: 0.432
+Test epoch 45, loss: 0.997, acc: 0.468, auc: 0.740, fid+: 0.4542, fid-: 0.4267, charact: 0.5068, worst_group_acc: 0.2130, per_class: {0: 0.32754342431761785, 1: 0.8131067961165048, 2: 0.21298701298701297}
+Epoch 46, loss: 1.185, acc: 0.524
+Eval epoch 46, loss: 0.933, acc: 0.530
+Test epoch 46, loss: 0.923, acc: 0.540, auc: 0.741, fid+: 0.5883, fid-: 0.5575, charact: 0.5051, worst_group_acc: 0.4571, per_class: {0: 0.4813895781637717, 1: 0.6747572815533981, 2: 0.45714285714285713}
+Epoch 47, loss: 1.091, acc: 0.557
+Eval epoch 47, loss: 0.888, acc: 0.568
+Test epoch 47, loss: 0.872, acc: 0.581, auc: 0.781, fid+: 0.7667, fid-: 0.4575, charact: 0.6354, worst_group_acc: 0.2779, per_class: {0: 0.8511166253101737, 1: 0.5169902912621359, 2: 0.2779220779220779}
+Epoch 48, loss: 1.111, acc: 0.574
+Eval epoch 48, loss: 0.843, acc: 0.568
+Test epoch 48, loss: 0.826, acc: 0.591, auc: 0.795, fid+: 0.7000, fid-: 0.4567, charact: 0.6118, worst_group_acc: 0.2208, per_class: {0: 0.8660049627791563, 1: 0.6019417475728155, 2: 0.22077922077922077}
+Epoch 49, loss: 1.225, acc: 0.480
+Eval epoch 49, loss: 1.014, acc: 0.475
+Test epoch 49, loss: 1.025, acc: 0.461, auc: 0.690, fid+: 0.6175, fid-: 0.4450, charact: 0.5846, worst_group_acc: 0.1650, per_class: {0: 0.6426799007444168, 1: 0.1650485436893204, 2: 0.6181818181818182}
+Epoch 50, loss: 1.277, acc: 0.406
+Eval epoch 50, loss: 1.073, acc: 0.369
+Test epoch 50, loss: 1.086, acc: 0.369, auc: 0.569, fid+: 0.8408, fid-: 0.6733, charact: 0.4705, worst_group_acc: 0.0390, per_class: {0: 0.49379652605459057, 1: 0.5946601941747572, 2: 0.03896103896103896}
+Epoch 51, loss: 1.232, acc: 0.398
+Eval epoch 51, loss: 0.983, acc: 0.398
+Test epoch 51, loss: 0.966, acc: 0.403, auc: 0.768, fid+: 0.6025, fid-: 0.6325, charact: 0.4565, worst_group_acc: 0.1017, per_class: {0: 0.10173697270471464, 1: 0.9466019417475728, 2: 0.16883116883116883}
+Epoch 52, loss: 1.254, acc: 0.398
+Eval epoch 52, loss: 1.074, acc: 0.385
+Test epoch 52, loss: 1.134, acc: 0.386, auc: 0.588, fid+: 0.7708, fid-: 0.6550, charact: 0.4767, worst_group_acc: 0.2519, per_class: {0: 0.38213399503722084, 1: 0.5242718446601942, 2: 0.2519480519480519}
+Epoch 53, loss: 1.298, acc: 0.376
+Eval epoch 53, loss: 0.956, acc: 0.499
+Test epoch 53, loss: 0.935, acc: 0.513, auc: 0.750, fid+: 0.9133, fid-: 0.6925, charact: 0.4601, worst_group_acc: 0.0779, per_class: {0: 0.5930521091811415, 1: 0.8106796116504854, 2: 0.07792207792207792}
+Epoch 54, loss: 1.234, acc: 0.435
+Eval epoch 54, loss: 0.912, acc: 0.535
+Test epoch 54, loss: 0.894, acc: 0.542, auc: 0.759, fid+: 0.7992, fid-: 0.6600, charact: 0.4770, worst_group_acc: 0.2857, per_class: {0: 0.533498759305211, 1: 0.7718446601941747, 2: 0.2857142857142857}
+Epoch 55, loss: 1.106, acc: 0.542
+Eval epoch 55, loss: 3.497, acc: 0.403
+Test epoch 55, loss: 5.925, acc: 0.407, auc: 0.630, fid+: 0.9350, fid-: 0.8575, charact: 0.2473, worst_group_acc: 0.0831, per_class: {0: 0.15632754342431762, 1: 0.9271844660194175, 2: 0.08311688311688312}
+Epoch 56, loss: 1.118, acc: 0.549
+Eval epoch 56, loss: 0.865, acc: 0.557
+Test epoch 56, loss: 0.857, acc: 0.547, auc: 0.761, fid+: 0.8025, fid-: 0.5725, charact: 0.5578, worst_group_acc: 0.1896, per_class: {0: 0.7270471464019851, 1: 0.7111650485436893, 2: 0.18961038961038962}
+Epoch 57, loss: 1.102, acc: 0.563
+Eval epoch 57, loss: 0.776, acc: 0.618
+Test epoch 57, loss: 0.771, acc: 0.616, auc: 0.811, fid+: 0.4967, fid-: 0.4325, charact: 0.5297, worst_group_acc: 0.4789, per_class: {0: 0.47890818858560796, 1: 0.6480582524271845, 2: 0.7246753246753247}
+Epoch 58, loss: 1.150, acc: 0.560
+Eval epoch 58, loss: 1.177, acc: 0.423
+Test epoch 58, loss: 1.188, acc: 0.428, auc: 0.710, fid+: 0.5433, fid-: 0.4350, charact: 0.5540, worst_group_acc: 0.1165, per_class: {0: 0.7047146401985112, 1: 0.11650485436893204, 2: 0.43376623376623374}
+Epoch 59, loss: 1.019, acc: 0.608
+Eval epoch 59, loss: 0.758, acc: 0.655
+Test epoch 59, loss: 0.755, acc: 0.634, auc: 0.827, fid+: 0.6350, fid-: 0.5350, charact: 0.5369, worst_group_acc: 0.4864, per_class: {0: 0.48635235732009924, 1: 0.808252427184466, 2: 0.6233766233766234}
+Epoch 60, loss: 1.070, acc: 0.590
+Eval epoch 60, loss: 0.801, acc: 0.639
+Test epoch 60, loss: 0.776, acc: 0.625, auc: 0.824, fid+: 0.7425, fid-: 0.5783, charact: 0.5379, worst_group_acc: 0.3350, per_class: {0: 0.3349875930521092, 1: 0.8106796116504854, 2: 0.7116883116883117}
+Epoch 61, loss: 0.934, acc: 0.638
+Eval epoch 61, loss: 0.727, acc: 0.636
+Test epoch 61, loss: 0.711, acc: 0.644, auc: 0.819, fid+: 0.5717, fid-: 0.5100, charact: 0.5277, worst_group_acc: 0.4571, per_class: {0: 0.6377171215880894, 1: 0.7572815533980582, 2: 0.45714285714285713}
+Epoch 62, loss: 0.907, acc: 0.646
+Eval epoch 62, loss: 0.699, acc: 0.644
+Test epoch 62, loss: 0.710, acc: 0.647, auc: 0.823, fid+: 0.6300, fid-: 0.5558, charact: 0.5210, worst_group_acc: 0.4988, per_class: {0: 0.4987593052109181, 1: 0.7864077669902912, 2: 0.6753246753246753}
+Epoch 63, loss: 0.919, acc: 0.642
+Eval epoch 63, loss: 1.063, acc: 0.577
+Test epoch 63, loss: 1.056, acc: 0.578, auc: 0.812, fid+: 0.6642, fid-: 0.5200, charact: 0.5573, worst_group_acc: 0.3532, per_class: {0: 0.46153846153846156, 1: 0.9247572815533981, 2: 0.35324675324675325}
+Epoch 64, loss: 0.929, acc: 0.638
+Eval epoch 64, loss: 0.711, acc: 0.627
+Test epoch 64, loss: 0.710, acc: 0.639, auc: 0.819, fid+: 0.6167, fid-: 0.5575, charact: 0.5153, worst_group_acc: 0.6005, per_class: {0: 0.6004962779156328, 1: 0.7063106796116505, 2: 0.6051948051948052}
+Epoch 65, loss: 0.918, acc: 0.638
+Eval epoch 65, loss: 0.835, acc: 0.625
+Test epoch 65, loss: 0.828, acc: 0.611, auc: 0.834, fid+: 0.6933, fid-: 0.5350, charact: 0.5567, worst_group_acc: 0.4675, per_class: {0: 0.5037220843672456, 1: 0.9223300970873787, 2: 0.4675324675324675}
+Epoch 66, loss: 0.918, acc: 0.647
+Eval epoch 66, loss: 0.750, acc: 0.628
+Test epoch 66, loss: 0.729, acc: 0.622, auc: 0.807, fid+: 0.5467, fid-: 0.4175, charact: 0.5640, worst_group_acc: 0.5039, per_class: {0: 0.6352357320099256, 1: 0.7354368932038835, 2: 0.5038961038961038}
+Epoch 67, loss: 0.928, acc: 0.644
+Eval epoch 67, loss: 0.716, acc: 0.654
+Test epoch 67, loss: 0.700, acc: 0.662, auc: 0.833, fid+: 0.6317, fid-: 0.5558, charact: 0.5216, worst_group_acc: 0.5385, per_class: {0: 0.5384615384615384, 1: 0.8470873786407767, 2: 0.6}
+Epoch 68, loss: 0.927, acc: 0.647
+Eval epoch 68, loss: 0.724, acc: 0.667
+Test epoch 68, loss: 0.737, acc: 0.632, auc: 0.822, fid+: 0.6508, fid-: 0.5358, charact: 0.5419, worst_group_acc: 0.5299, per_class: {0: 0.575682382133995, 1: 0.837378640776699, 2: 0.5298701298701298}
+Epoch 69, loss: 1.092, acc: 0.562
+Eval epoch 69, loss: 1.015, acc: 0.471
+Test epoch 69, loss: 1.036, acc: 0.453, auc: 0.653, fid+: 0.5917, fid-: 0.5583, charact: 0.5058, worst_group_acc: 0.2937, per_class: {0: 0.5012406947890818, 1: 0.2936893203883495, 2: 0.5688311688311688}
+Epoch 70, loss: 1.143, acc: 0.546
+Eval epoch 70, loss: 0.894, acc: 0.557
+Test epoch 70, loss: 0.866, acc: 0.589, auc: 0.786, fid+: 0.5775, fid-: 0.5242, charact: 0.5218, worst_group_acc: 0.2961, per_class: {0: 0.6799007444168734, 1: 0.7985436893203883, 2: 0.2961038961038961}
+Epoch 71, loss: 1.110, acc: 0.554
+Eval epoch 71, loss: 0.906, acc: 0.568
+Test epoch 71, loss: 0.878, acc: 0.568, auc: 0.810, fid+: 0.6392, fid-: 0.4508, charact: 0.5908, worst_group_acc: 0.2052, per_class: {0: 0.6104218362282878, 1: 0.9101941747572816, 2: 0.2051948051948052}
+Epoch 72, loss: 1.141, acc: 0.566
+Eval epoch 72, loss: 1.360, acc: 0.357
+Test epoch 72, loss: 1.407, acc: 0.342, auc: 0.555, fid+: 0.0958, fid-: 0.1992, charact: 0.1712, worst_group_acc: 0.0000, per_class: {0: 0.9652605459057072, 1: 0.0, 2: 0.046753246753246755}
+Epoch 73, loss: 1.298, acc: 0.483
+Eval epoch 73, loss: 1.038, acc: 0.449
+Test epoch 73, loss: 1.044, acc: 0.457, auc: 0.636, fid+: 0.6142, fid-: 0.5642, charact: 0.5099, worst_group_acc: 0.1922, per_class: {0: 0.6699751861042184, 1: 0.46601941747572817, 2: 0.19220779220779222}
+Epoch 74, loss: 1.121, acc: 0.578
+Eval epoch 74, loss: 23.990, acc: 0.317
+Test epoch 74, loss: 29.703, acc: 0.343, auc: 0.608, fid+: 0.4533, fid-: 0.3183, charact: 0.5445, worst_group_acc: 0.0000, per_class: {0: 0.0, 1: 1.0, 2: 0.0}
+Epoch 75, loss: 1.076, acc: 0.595
+Eval epoch 75, loss: 0.817, acc: 0.606
+Test epoch 75, loss: 0.803, acc: 0.613, auc: 0.792, fid+: 0.4692, fid-: 0.5108, charact: 0.4790, worst_group_acc: 0.3377, per_class: {0: 0.7841191066997518, 1: 0.7669902912621359, 2: 0.33766233766233766}
+Epoch 76, loss: 1.030, acc: 0.619
+Eval epoch 76, loss: 0.967, acc: 0.513
+Test epoch 76, loss: 0.969, acc: 0.507, auc: 0.719, fid+: 0.5925, fid-: 0.5183, charact: 0.5314, worst_group_acc: 0.3519, per_class: {0: 0.511166253101737, 1: 0.35194174757281554, 2: 0.6363636363636364}
+Epoch 77, loss: 1.019, acc: 0.632
+Eval epoch 77, loss: 0.998, acc: 0.541
+Test epoch 77, loss: 0.996, acc: 0.552, auc: 0.791, fid+: 0.5092, fid-: 0.5808, charact: 0.4598, worst_group_acc: 0.2104, per_class: {0: 0.5136476426799007, 1: 0.8883495145631068, 2: 0.21038961038961038}
+Epoch 78, loss: 0.985, acc: 0.649
+Eval epoch 78, loss: 0.809, acc: 0.603
+Test epoch 78, loss: 0.818, acc: 0.608, auc: 0.774, fid+: 0.5808, fid-: 0.5775, charact: 0.4892, worst_group_acc: 0.5980, per_class: {0: 0.598014888337469, 1: 0.6359223300970874, 2: 0.6}
+Epoch 79, loss: 0.997, acc: 0.629
+Eval epoch 79, loss: 0.958, acc: 0.541
+Test epoch 79, loss: 0.897, acc: 0.562, auc: 0.768, fid+: 0.3292, fid-: 0.3267, charact: 0.4422, worst_group_acc: 0.1325, per_class: {0: 0.9007444168734491, 1: 0.6116504854368932, 2: 0.13246753246753246}
+Epoch 80, loss: 0.970, acc: 0.644
+Eval epoch 80, loss: 0.834, acc: 0.606
+Test epoch 80, loss: 0.764, acc: 0.641, auc: 0.833, fid+: 0.5325, fid-: 0.5842, charact: 0.4670, worst_group_acc: 0.3065, per_class: {0: 0.6600496277915633, 1: 0.9004854368932039, 2: 0.3064935064935065}
+Epoch 81, loss: 1.019, acc: 0.637
+Eval epoch 81, loss: 1.175, acc: 0.501
+Test epoch 81, loss: 1.123, acc: 0.513, auc: 0.818, fid+: 0.6467, fid-: 0.7150, charact: 0.3956, worst_group_acc: 0.2928, per_class: {0: 0.29280397022332505, 1: 0.9538834951456311, 2: 0.3038961038961039}
+Epoch 82, loss: 0.936, acc: 0.661
+Eval epoch 82, loss: 0.964, acc: 0.533
+Test epoch 82, loss: 0.968, acc: 0.532, auc: 0.738, fid+: 0.4825, fid-: 0.3892, charact: 0.5391, worst_group_acc: 0.3738, per_class: {0: 0.4665012406947891, 1: 0.3737864077669903, 2: 0.7636363636363637}
+Epoch 83, loss: 0.931, acc: 0.647
+Eval epoch 83, loss: 0.919, acc: 0.554
+Test epoch 83, loss: 0.913, acc: 0.552, auc: 0.758, fid+: 0.4817, fid-: 0.5042, charact: 0.4886, worst_group_acc: 0.4753, per_class: {0: 0.7096774193548387, 1: 0.49029126213592233, 2: 0.4753246753246753}
+Epoch 84, loss: 0.981, acc: 0.641
+Eval epoch 84, loss: 1.462, acc: 0.440
+Test epoch 84, loss: 1.344, acc: 0.466, auc: 0.791, fid+: 0.8050, fid-: 0.8325, charact: 0.2773, worst_group_acc: 0.1737, per_class: {0: 0.17369727047146402, 1: 0.9393203883495146, 2: 0.3064935064935065}
+Epoch 85, loss: 0.930, acc: 0.652
+Eval epoch 85, loss: 1.009, acc: 0.511
+Test epoch 85, loss: 1.016, acc: 0.522, auc: 0.765, fid+: 0.6125, fid-: 0.4900, charact: 0.5566, worst_group_acc: 0.2159, per_class: {0: 0.21588089330024815, 1: 0.39805825242718446, 2: 0.9298701298701298}
+Epoch 86, loss: 0.956, acc: 0.638
+Eval epoch 86, loss: 0.727, acc: 0.642
+Test epoch 86, loss: 0.733, acc: 0.642, auc: 0.809, fid+: 0.5333, fid-: 0.5375, charact: 0.4954, worst_group_acc: 0.4675, per_class: {0: 0.6898263027295285, 1: 0.7597087378640777, 2: 0.4675324675324675}
+Epoch 87, loss: 1.003, acc: 0.638
+Eval epoch 87, loss: 0.702, acc: 0.656
+Test epoch 87, loss: 0.719, acc: 0.647, auc: 0.818, fid+: 0.6733, fid-: 0.6767, charact: 0.4369, worst_group_acc: 0.4814, per_class: {0: 0.4813895781637717, 1: 0.7718446601941747, 2: 0.7038961038961039}
+Epoch 88, loss: 0.913, acc: 0.657
+Eval epoch 88, loss: 1.038, acc: 0.603
+Test epoch 88, loss: 0.932, acc: 0.620, auc: 0.824, fid+: 0.6467, fid-: 0.6892, charact: 0.4199, worst_group_acc: 0.4519, per_class: {0: 0.4739454094292804, 1: 0.9223300970873787, 2: 0.45194805194805193}
+Epoch 89, loss: 0.913, acc: 0.654
+Eval epoch 89, loss: 0.682, acc: 0.655
+Test epoch 89, loss: 0.673, acc: 0.662, auc: 0.832, fid+: 0.6283, fid-: 0.6383, charact: 0.4591, worst_group_acc: 0.5583, per_class: {0: 0.5583126550868487, 1: 0.8446601941747572, 2: 0.6077922077922078}
+Epoch 90, loss: 0.906, acc: 0.658
+Eval epoch 90, loss: 20.897, acc: 0.376
+Test epoch 90, loss: 15.979, acc: 0.410, auc: 0.614, fid+: 0.6650, fid-: 0.8300, charact: 0.2708, worst_group_acc: 0.0727, per_class: {0: 0.17121588089330025, 1: 0.9563106796116505, 2: 0.07272727272727272}
+Epoch 91, loss: 1.091, acc: 0.561
+Eval epoch 91, loss: 0.719, acc: 0.638
+Test epoch 91, loss: 0.728, acc: 0.634, auc: 0.818, fid+: 0.4642, fid-: 0.4675, charact: 0.4960, worst_group_acc: 0.3247, per_class: {0: 0.771712158808933, 1: 0.7354368932038835, 2: 0.3246753246753247}
+Epoch 92, loss: 0.968, acc: 0.638
+Eval epoch 92, loss: 0.898, acc: 0.562
+Test epoch 92, loss: 0.896, acc: 0.566, auc: 0.779, fid+: 0.4667, fid-: 0.4775, charact: 0.4930, worst_group_acc: 0.4182, per_class: {0: 0.739454094292804, 1: 0.5072815533980582, 2: 0.41818181818181815}
+Epoch 93, loss: 0.926, acc: 0.652
+Eval epoch 93, loss: 1.054, acc: 0.515
+Test epoch 93, loss: 1.036, acc: 0.520, auc: 0.752, fid+: 0.5700, fid-: 0.5792, charact: 0.4842, worst_group_acc: 0.3617, per_class: {0: 0.49379652605459057, 1: 0.3616504854368932, 2: 0.7012987012987013}
+Epoch 94, loss: 0.934, acc: 0.656
+Eval epoch 94, loss: 1.987, acc: 0.447
+Test epoch 94, loss: 1.869, acc: 0.449, auc: 0.822, fid+: 0.7383, fid-: 0.8583, charact: 0.2377, worst_group_acc: 0.0893, per_class: {0: 0.08933002481389578, 1: 0.9830097087378641, 2: 0.21298701298701297}
+Epoch 95, loss: 1.047, acc: 0.613
+Eval epoch 95, loss: 0.684, acc: 0.631
+Test epoch 95, loss: 0.688, acc: 0.637, auc: 0.821, fid+: 0.4908, fid-: 0.5117, charact: 0.4896, worst_group_acc: 0.4390, per_class: {0: 0.7444168734491315, 1: 0.8106796116504854, 2: 0.43896103896103894}
+Epoch 96, loss: 0.924, acc: 0.652
+Eval epoch 96, loss: 0.693, acc: 0.640
+Test epoch 96, loss: 0.689, acc: 0.642, auc: 0.824, fid+: 0.6442, fid-: 0.6492, charact: 0.4543, worst_group_acc: 0.4467, per_class: {0: 0.4466501240694789, 1: 0.7839805825242718, 2: 0.6883116883116883}
+Epoch 97, loss: 1.868, acc: 0.656
+Eval epoch 97, loss: 0.815, acc: 0.596
+Test epoch 97, loss: 0.836, acc: 0.571, auc: 0.764, fid+: 0.4642, fid-: 0.4742, charact: 0.4931, worst_group_acc: 0.3351, per_class: {0: 0.7543424317617866, 1: 0.6359223300970874, 2: 0.33506493506493507}
+Epoch 98, loss: 1.717, acc: 0.642
+Eval epoch 98, loss: 0.787, acc: 0.599
+Test epoch 98, loss: 0.719, acc: 0.654, auc: 0.825, fid+: 0.5733, fid-: 0.6058, charact: 0.4672, worst_group_acc: 0.4130, per_class: {0: 0.6228287841191067, 1: 0.8640776699029126, 2: 0.412987012987013}
+Epoch 99, loss: 1.001, acc: 0.614
+Eval epoch 99, loss: 0.754, acc: 0.632
+Test epoch 99, loss: 0.692, acc: 0.642, auc: 0.833, fid+: 0.4892, fid-: 0.5133, charact: 0.4879, worst_group_acc: 0.4545, per_class: {0: 0.71712158808933, 1: 0.7694174757281553, 2: 0.45454545454545453}
+Epoch 100, loss: 0.970, acc: 0.624
+Eval epoch 100, loss: 0.707, acc: 0.632
+Test epoch 100, loss: 0.686, acc: 0.640, auc: 0.828, fid+: 0.5117, fid-: 0.5583, charact: 0.4741, worst_group_acc: 0.4416, per_class: {0: 0.6600496277915633, 1: 0.8033980582524272, 2: 0.44155844155844154}
+Epoch 101, loss: 0.867, acc: 0.662
+Eval epoch 101, loss: 0.754, acc: 0.601
+Test epoch 101, loss: 0.773, acc: 0.632, auc: 0.820, fid+: 0.5358, fid-: 0.5350, charact: 0.4979, worst_group_acc: 0.5714, per_class: {0: 0.5856079404466501, 1: 0.6990291262135923, 2: 0.5714285714285714}
+Epoch 102, loss: 0.871, acc: 0.654
+Eval epoch 102, loss: 1.473, acc: 0.552
+Test epoch 102, loss: 1.134, acc: 0.538, auc: 0.823, fid+: 0.7325, fid-: 0.7992, charact: 0.3152, worst_group_acc: 0.2581, per_class: {0: 0.25806451612903225, 1: 0.9563106796116505, 2: 0.4155844155844156}
+Epoch 103, loss: 0.895, acc: 0.652
+Eval epoch 103, loss: 0.674, acc: 0.655
+Test epoch 103, loss: 0.660, acc: 0.672, auc: 0.839, fid+: 0.5783, fid-: 0.6200, charact: 0.4586, worst_group_acc: 0.5662, per_class: {0: 0.6054590570719603, 1: 0.8058252427184466, 2: 0.5662337662337662}
+Epoch 104, loss: 0.994, acc: 0.625
+Eval epoch 104, loss: 0.746, acc: 0.644
+Test epoch 104, loss: 0.697, acc: 0.678, auc: 0.839, fid+: 0.5850, fid-: 0.6017, charact: 0.4739, worst_group_acc: 0.5261, per_class: {0: 0.5260545905707196, 1: 0.8398058252427184, 2: 0.5818181818181818}
+Epoch 105, loss: 0.921, acc: 0.636
+Eval epoch 105, loss: 0.703, acc: 0.640
+Test epoch 105, loss: 0.681, acc: 0.655, auc: 0.835, fid+: 0.4867, fid-: 0.5067, charact: 0.4900, worst_group_acc: 0.3065, per_class: {0: 0.707196029776675, 1: 0.8762135922330098, 2: 0.3064935064935065}
+Epoch 106, loss: 0.889, acc: 0.648
+Eval epoch 106, loss: 0.787, acc: 0.613
+Test epoch 106, loss: 0.808, acc: 0.616, auc: 0.815, fid+: 0.5025, fid-: 0.5367, charact: 0.4821, worst_group_acc: 0.4597, per_class: {0: 0.7121588089330024, 1: 0.691747572815534, 2: 0.4597402597402597}
+Epoch 107, loss: 0.995, acc: 0.609
+Eval epoch 107, loss: 0.901, acc: 0.589
+Test epoch 107, loss: 0.891, acc: 0.604, auc: 0.809, fid+: 0.6117, fid-: 0.6833, charact: 0.4173, worst_group_acc: 0.4491, per_class: {0: 0.4491315136476427, 1: 0.8859223300970874, 2: 0.4961038961038961}
+Epoch 108, loss: 0.858, acc: 0.654
+Eval epoch 108, loss: 0.646, acc: 0.653
+Test epoch 108, loss: 0.636, acc: 0.670, auc: 0.843, fid+: 0.6125, fid-: 0.6925, charact: 0.4094, worst_group_acc: 0.5037, per_class: {0: 0.5037220843672456, 1: 0.837378640776699, 2: 0.638961038961039}
+Epoch 109, loss: 0.836, acc: 0.667
+Eval epoch 109, loss: 0.819, acc: 0.593
+Test epoch 109, loss: 0.850, acc: 0.597, auc: 0.797, fid+: 0.5308, fid-: 0.5825, charact: 0.4674, worst_group_acc: 0.6026, per_class: {0: 0.6178660049627791, 1: 0.6213592233009708, 2: 0.6025974025974026}
+Epoch 110, loss: 0.916, acc: 0.655
+Eval epoch 110, loss: 0.716, acc: 0.648
+Test epoch 110, loss: 0.715, acc: 0.649, auc: 0.831, fid+: 0.5950, fid-: 0.7300, charact: 0.3714, worst_group_acc: 0.3672, per_class: {0: 0.36724565756823824, 1: 0.8859223300970874, 2: 0.7038961038961039}
+Epoch 111, loss: 0.885, acc: 0.669
+Eval epoch 111, loss: 0.753, acc: 0.627
+Test epoch 111, loss: 0.762, acc: 0.630, auc: 0.813, fid+: 0.6367, fid-: 0.6425, charact: 0.4579, worst_group_acc: 0.5385, per_class: {0: 0.5384615384615384, 1: 0.7184466019417476, 2: 0.6415584415584416}
+Epoch 112, loss: 0.907, acc: 0.649
+Eval epoch 112, loss: 0.726, acc: 0.657
+Test epoch 112, loss: 0.824, acc: 0.631, auc: 0.824, fid+: 0.6183, fid-: 0.6367, charact: 0.4577, worst_group_acc: 0.3747, per_class: {0: 0.3746898263027295, 1: 0.8810679611650486, 2: 0.6987012987012987}
+Epoch 113, loss: 0.896, acc: 0.661
+Eval epoch 113, loss: 10.352, acc: 0.311
+Test epoch 113, loss: 12.080, acc: 0.343, auc: 0.711, fid+: 0.3708, fid-: 0.9442, charact: 0.0971, worst_group_acc: 0.0000, per_class: {0: 0.0, 1: 1.0, 2: 0.0}
+Epoch 114, loss: 0.993, acc: 0.607
+Eval epoch 114, loss: 0.886, acc: 0.577
+Test epoch 114, loss: 0.874, acc: 0.584, auc: 0.782, fid+: 0.4167, fid-: 0.4200, charact: 0.4849, worst_group_acc: 0.3299, per_class: {0: 0.7866004962779156, 1: 0.6019417475728155, 2: 0.32987012987012987}
+Epoch 115, loss: 0.962, acc: 0.624
+Eval epoch 115, loss: 43.590, acc: 0.360
+Test epoch 115, loss: 32.819, acc: 0.438, auc: 0.572, fid+: 0.7317, fid-: 0.8133, charact: 0.2974, worst_group_acc: 0.1039, per_class: {0: 0.21588089330024815, 1: 0.9635922330097088, 2: 0.1038961038961039}
+Epoch 116, loss: 0.937, acc: 0.636
+Eval epoch 116, loss: 1.450, acc: 0.422
+Test epoch 116, loss: 1.483, acc: 0.437, auc: 0.767, fid+: 0.7917, fid-: 0.8883, charact: 0.1957, worst_group_acc: 0.1636, per_class: {0: 0.17369727047146402, 1: 0.9538834951456311, 2: 0.16363636363636364}
+Epoch 117, loss: 0.915, acc: 0.648
+Eval epoch 117, loss: 0.823, acc: 0.614
+Test epoch 117, loss: 0.856, acc: 0.611, auc: 0.819, fid+: 0.4808, fid-: 0.4933, charact: 0.4934, worst_group_acc: 0.5844, per_class: {0: 0.6277915632754343, 1: 0.6844660194174758, 2: 0.5844155844155844}
+Epoch 118, loss: 0.863, acc: 0.662
+Eval epoch 118, loss: 0.800, acc: 0.634
+Test epoch 118, loss: 0.834, acc: 0.624, auc: 0.815, fid+: 0.5242, fid-: 0.5567, charact: 0.4804, worst_group_acc: 0.5273, per_class: {0: 0.707196029776675, 1: 0.6893203883495146, 2: 0.5272727272727272}
+Epoch 119, loss: 0.935, acc: 0.651
+Eval epoch 119, loss: 0.646, acc: 0.662
+Test epoch 119, loss: 0.671, acc: 0.682, auc: 0.846, fid+: 0.5192, fid-: 0.6067, charact: 0.4476, worst_group_acc: 0.5558, per_class: {0: 0.598014888337469, 1: 0.8786407766990292, 2: 0.5558441558441558}
+Epoch 120, loss: 0.922, acc: 0.657
+Eval epoch 120, loss: 1.199, acc: 0.522
+Test epoch 120, loss: 1.249, acc: 0.508, auc: 0.752, fid+: 0.5392, fid-: 0.6000, charact: 0.4593, worst_group_acc: 0.3568, per_class: {0: 0.5161290322580645, 1: 0.3567961165048544, 2: 0.6623376623376623}
+Epoch 121, loss: 0.875, acc: 0.660
+Eval epoch 121, loss: 0.861, acc: 0.620
+Test epoch 121, loss: 0.836, acc: 0.620, auc: 0.827, fid+: 0.5708, fid-: 0.6608, charact: 0.4255, worst_group_acc: 0.4640, per_class: {0: 0.4640198511166253, 1: 0.9247572815533981, 2: 0.5272727272727272}
+Epoch 122, loss: 1.057, acc: 0.600
+Eval epoch 122, loss: 0.832, acc: 0.609
+Test epoch 122, loss: 0.873, acc: 0.595, auc: 0.798, fid+: 0.5650, fid-: 0.6242, charact: 0.4514, worst_group_acc: 0.5484, per_class: {0: 0.5483870967741935, 1: 0.5776699029126213, 2: 0.6675324675324675}
+Epoch 123, loss: 0.996, acc: 0.628
+Eval epoch 123, loss: 0.755, acc: 0.614
+Test epoch 123, loss: 0.796, acc: 0.616, auc: 0.814, fid+: 0.5383, fid-: 0.5875, charact: 0.4671, worst_group_acc: 0.3623, per_class: {0: 0.36228287841191065, 1: 0.662621359223301, 2: 0.7740259740259741}
+Epoch 124, loss: 0.949, acc: 0.637
+Eval epoch 124, loss: 0.737, acc: 0.613
+Test epoch 124, loss: 0.753, acc: 0.626, auc: 0.821, fid+: 0.5225, fid-: 0.5492, charact: 0.4840, worst_group_acc: 0.5506, per_class: {0: 0.6104218362282878, 1: 0.6674757281553398, 2: 0.5506493506493506}
+Epoch 125, loss: 0.935, acc: 0.633
+Eval epoch 125, loss: 0.705, acc: 0.621
+Test epoch 125, loss: 0.708, acc: 0.634, auc: 0.821, fid+: 0.5133, fid-: 0.5800, charact: 0.4620, worst_group_acc: 0.5039, per_class: {0: 0.6377171215880894, 1: 0.7815533980582524, 2: 0.5038961038961038}
+Epoch 126, loss: 0.929, acc: 0.640
+Eval epoch 126, loss: 0.921, acc: 0.607
+Test epoch 126, loss: 0.849, acc: 0.628, auc: 0.819, fid+: 0.7100, fid-: 0.7658, charact: 0.3522, worst_group_acc: 0.2481, per_class: {0: 0.24813895781637718, 1: 0.8567961165048543, 2: 0.7766233766233767}
+Epoch 127, loss: 0.899, acc: 0.655
+Eval epoch 127, loss: 0.682, acc: 0.638
+Test epoch 127, loss: 0.677, acc: 0.657, auc: 0.838, fid+: 0.6942, fid-: 0.7600, charact: 0.3567, worst_group_acc: 0.3300, per_class: {0: 0.33002481389578164, 1: 0.8155339805825242, 2: 0.7610389610389611}
+Epoch 128, loss: 0.916, acc: 0.652
+Eval epoch 128, loss: 1.522, acc: 0.610
+Test epoch 128, loss: 0.727, acc: 0.637, auc: 0.819, fid+: 0.5467, fid-: 0.5733, charact: 0.4793, worst_group_acc: 0.4234, per_class: {0: 0.6476426799007444, 1: 0.8592233009708737, 2: 0.42337662337662335}
+Epoch 129, loss: 0.888, acc: 0.652
+Eval epoch 129, loss: 1.267, acc: 0.463
+Test epoch 129, loss: 1.108, acc: 0.518, auc: 0.804, fid+: 0.7075, fid-: 0.7883, charact: 0.3258, worst_group_acc: 0.2130, per_class: {0: 0.34491315136476425, 1: 0.9660194174757282, 2: 0.21298701298701297}
+Epoch 130, loss: 0.879, acc: 0.657
+Eval epoch 130, loss: 1.454, acc: 0.432
+Test epoch 130, loss: 1.523, acc: 0.434, auc: 0.670, fid+: 0.1950, fid-: 0.1825, charact: 0.3149, worst_group_acc: 0.0442, per_class: {0: 0.9826302729528535, 1: 0.25485436893203883, 2: 0.04415584415584416}
+Epoch 131, loss: 0.986, acc: 0.612
+Eval epoch 131, loss: 0.886, acc: 0.566
+Test epoch 131, loss: 0.880, acc: 0.581, auc: 0.791, fid+: 0.5042, fid-: 0.5008, charact: 0.5017, worst_group_acc: 0.4208, per_class: {0: 0.6898263027295285, 1: 0.5776699029126213, 2: 0.42077922077922075}
+Epoch 132, loss: 0.984, acc: 0.583
+Eval epoch 132, loss: 3.102, acc: 0.393
+Test epoch 132, loss: 2.371, acc: 0.421, auc: 0.789, fid+: 0.7600, fid-: 0.8383, charact: 0.2666, worst_group_acc: 0.0312, per_class: {0: 0.2679900744416873, 1: 0.9757281553398058, 2: 0.03116883116883117}
+Epoch 133, loss: 0.925, acc: 0.641
+Eval epoch 133, loss: 0.740, acc: 0.632
+Test epoch 133, loss: 0.741, acc: 0.635, auc: 0.810, fid+: 0.5283, fid-: 0.5650, charact: 0.4771, worst_group_acc: 0.5221, per_class: {0: 0.5806451612903226, 1: 0.7451456310679612, 2: 0.522077922077922}
+Epoch 134, loss: 0.875, acc: 0.654
+Eval epoch 134, loss: 0.752, acc: 0.635
+Test epoch 134, loss: 0.710, acc: 0.647, auc: 0.830, fid+: 0.5142, fid-: 0.5525, charact: 0.4785, worst_group_acc: 0.5117, per_class: {0: 0.652605459057072, 1: 0.7718446601941747, 2: 0.5116883116883116}
+Epoch 135, loss: 0.883, acc: 0.664
+Eval epoch 135, loss: 0.811, acc: 0.608
+Test epoch 135, loss: 0.788, acc: 0.632, auc: 0.826, fid+: 0.5725, fid-: 0.5367, charact: 0.5122, worst_group_acc: 0.5732, per_class: {0: 0.5732009925558312, 1: 0.6990291262135923, 2: 0.6181818181818182}
+Epoch 136, loss: 0.806, acc: 0.678
+Eval epoch 136, loss: 0.677, acc: 0.657
+Test epoch 136, loss: 0.620, acc: 0.678, auc: 0.852, fid+: 0.5350, fid-: 0.5533, charact: 0.4869, worst_group_acc: 0.5584, per_class: {0: 0.6327543424317618, 1: 0.8228155339805825, 2: 0.5584415584415584}
+Epoch 137, loss: 0.821, acc: 0.672
+Eval epoch 137, loss: 0.933, acc: 0.601
+Test epoch 137, loss: 0.993, acc: 0.575, auc: 0.785, fid+: 0.5092, fid-: 0.5625, charact: 0.4706, worst_group_acc: 0.5049, per_class: {0: 0.5955334987593052, 1: 0.5048543689320388, 2: 0.5974025974025974}
+Epoch 138, loss: 0.829, acc: 0.667
+Eval epoch 138, loss: 3.057, acc: 0.441
+Test epoch 138, loss: 2.898, acc: 0.459, auc: 0.808, fid+: 0.5867, fid-: 0.7433, charact: 0.3571, worst_group_acc: 0.1195, per_class: {0: 0.2456575682382134, 1: 0.9878640776699029, 2: 0.11948051948051948}
+Epoch 139, loss: 0.880, acc: 0.659
+Eval epoch 139, loss: 0.693, acc: 0.642
+Test epoch 139, loss: 0.654, acc: 0.677, auc: 0.834, fid+: 0.5392, fid-: 0.6342, charact: 0.4359, worst_group_acc: 0.5062, per_class: {0: 0.5062034739454094, 1: 0.8495145631067961, 2: 0.6077922077922078}
+Epoch 140, loss: 0.916, acc: 0.642
+Eval epoch 140, loss: 0.758, acc: 0.636
+Test epoch 140, loss: 0.685, acc: 0.639, auc: 0.832, fid+: 0.5208, fid-: 0.5725, charact: 0.4696, worst_group_acc: 0.5247, per_class: {0: 0.6327543424317618, 1: 0.808252427184466, 2: 0.5246753246753246}
+Epoch 141, loss: 0.852, acc: 0.661
+Eval epoch 141, loss: 0.671, acc: 0.641
+Test epoch 141, loss: 0.670, acc: 0.655, auc: 0.836, fid+: 0.5275, fid-: 0.5167, charact: 0.5045, worst_group_acc: 0.4390, per_class: {0: 0.7444168734491315, 1: 0.8058252427184466, 2: 0.43896103896103894}
+Epoch 142, loss: 0.836, acc: 0.663
+Eval epoch 142, loss: 1.222, acc: 0.457
+Test epoch 142, loss: 1.217, acc: 0.480, auc: 0.724, fid+: 0.4950, fid-: 0.4333, charact: 0.5284, worst_group_acc: 0.3374, per_class: {0: 0.7146401985111662, 1: 0.33737864077669905, 2: 0.34545454545454546}
+Epoch 143, loss: 1.014, acc: 0.618
+Eval epoch 143, loss: 29.316, acc: 0.363
+Test epoch 143, loss: 25.648, acc: 0.438, auc: 0.598, fid+: 0.6858, fid-: 0.8950, charact: 0.1821, worst_group_acc: 0.0670, per_class: {0: 0.06699751861042183, 1: 0.9587378640776699, 2: 0.2909090909090909}
+Epoch 144, loss: 0.965, acc: 0.635
+Eval epoch 144, loss: 19.933, acc: 0.403
+Test epoch 144, loss: 15.891, acc: 0.464, auc: 0.638, fid+: 0.6550, fid-: 0.8175, charact: 0.2855, worst_group_acc: 0.0571, per_class: {0: 0.05707196029776675, 1: 0.9611650485436893, 2: 0.38181818181818183}
+Epoch 145, loss: 0.960, acc: 0.642
+Eval epoch 145, loss: 0.805, acc: 0.608
+Test epoch 145, loss: 0.794, acc: 0.627, auc: 0.811, fid+: 0.5242, fid-: 0.5400, charact: 0.4900, worst_group_acc: 0.4416, per_class: {0: 0.7096774193548387, 1: 0.691747572815534, 2: 0.44155844155844154}
+Epoch 146, loss: 0.921, acc: 0.655
+Eval epoch 146, loss: 0.751, acc: 0.636
+Test epoch 146, loss: 0.659, acc: 0.664, auc: 0.840, fid+: 0.6092, fid-: 0.6450, charact: 0.4486, worst_group_acc: 0.5087, per_class: {0: 0.5086848635235732, 1: 0.7766990291262136, 2: 0.6415584415584416}
+Epoch 147, loss: 0.917, acc: 0.652
+Eval epoch 147, loss: 1.465, acc: 0.437
+Test epoch 147, loss: 1.561, acc: 0.422, auc: 0.696, fid+: 0.4050, fid-: 0.4183, charact: 0.4775, worst_group_acc: 0.2015, per_class: {0: 0.8312655086848635, 1: 0.20145631067961164, 2: 0.23896103896103896}
+Epoch 148, loss: 0.882, acc: 0.653
+Eval epoch 148, loss: 6.176, acc: 0.427
+Test epoch 148, loss: 3.353, acc: 0.459, auc: 0.779, fid+: 0.6742, fid-: 0.7433, charact: 0.3718, worst_group_acc: 0.0372, per_class: {0: 0.03722084367245657, 1: 0.9733009708737864, 2: 0.38701298701298703}
+Epoch 149, loss: 0.890, acc: 0.653
+Eval epoch 149, loss: 0.704, acc: 0.622
+Test epoch 149, loss: 0.694, acc: 0.640, auc: 0.809, fid+: 0.5342, fid-: 0.5558, charact: 0.4850, worst_group_acc: 0.4390, per_class: {0: 0.7220843672456576, 1: 0.7888349514563107, 2: 0.43896103896103894}
+Best validation accuracy: 0.667
+loss: 0.742, acc: 0.641, auc: 0.823
+Epoch  0, loss: 1.717, acc: 0.400
+Eval epoch  0, loss: 1.089, acc: 0.396
+Test epoch  0, loss: 1.101, acc: 0.361, auc: 0.562, fid+: 0.4317, fid-: 0.4000, charact: 0.5021, worst_group_acc: 0.0736, per_class: {0: 0.6278481012658228, 1: 0.3746958637469586, 2: 0.07360406091370558}
+Epoch  1, loss: 1.700, acc: 0.456
+Eval epoch  1, loss: 1.013, acc: 0.551
+Test epoch  1, loss: 1.005, acc: 0.522, auc: 0.730, fid+: 0.4375, fid-: 0.3967, charact: 0.5072, worst_group_acc: 0.3173, per_class: {0: 0.3594936708860759, 1: 0.8272506082725061, 2: 0.31725888324873097}
+Epoch  2, loss: 1.551, acc: 0.561
+Eval epoch  2, loss: 0.929, acc: 0.579
+Test epoch  2, loss: 0.962, acc: 0.541, auc: 0.738, fid+: 0.4267, fid-: 0.3942, charact: 0.5007, worst_group_acc: 0.3595, per_class: {0: 0.3594936708860759, 1: 0.8442822384428224, 2: 0.4416243654822335}
+Epoch  3, loss: 1.531, acc: 0.562
+Eval epoch  3, loss: 1.110, acc: 0.403
+Test epoch  3, loss: 1.124, acc: 0.398, auc: 0.725, fid+: 0.2533, fid-: 0.1858, charact: 0.3864, worst_group_acc: 0.0000, per_class: {0: 0.9924050632911392, 1: 0.170316301703163, 2: 0.0}
+Epoch  4, loss: 1.506, acc: 0.573
+Eval epoch  4, loss: 0.863, acc: 0.593
+Test epoch  4, loss: 0.858, acc: 0.578, auc: 0.773, fid+: 0.4842, fid-: 0.4350, charact: 0.5215, worst_group_acc: 0.2962, per_class: {0: 0.29620253164556964, 1: 0.8418491484184915, 2: 0.6294416243654822}
+Epoch  5, loss: 1.501, acc: 0.580
+Eval epoch  5, loss: 0.928, acc: 0.563
+Test epoch  5, loss: 0.920, acc: 0.539, auc: 0.761, fid+: 0.4975, fid-: 0.4242, charact: 0.5338, worst_group_acc: 0.3646, per_class: {0: 0.36455696202531646, 1: 0.5620437956204379, 2: 0.700507614213198}
+Epoch  6, loss: 1.493, acc: 0.591
+Eval epoch  6, loss: 0.842, acc: 0.603
+Test epoch  6, loss: 0.828, acc: 0.611, auc: 0.789, fid+: 0.4700, fid-: 0.4567, charact: 0.5040, worst_group_acc: 0.3392, per_class: {0: 0.3392405063291139, 1: 0.8199513381995134, 2: 0.6243654822335025}
+Epoch  7, loss: 1.477, acc: 0.594
+Eval epoch  7, loss: 0.874, acc: 0.571
+Test epoch  7, loss: 0.850, acc: 0.581, auc: 0.782, fid+: 0.5042, fid-: 0.4350, charact: 0.5329, worst_group_acc: 0.4228, per_class: {0: 0.42278481012658226, 1: 0.7858880778588808, 2: 0.5279187817258884}
+Epoch  8, loss: 1.477, acc: 0.594
+Eval epoch  8, loss: 0.859, acc: 0.589
+Test epoch  8, loss: 0.848, acc: 0.578, auc: 0.781, fid+: 0.6017, fid-: 0.4483, charact: 0.5756, worst_group_acc: 0.3646, per_class: {0: 0.36455696202531646, 1: 0.8248175182481752, 2: 0.5228426395939086}
+Epoch  9, loss: 1.531, acc: 0.544
+Eval epoch  9, loss: 1.200, acc: 0.394
+Test epoch  9, loss: 1.182, acc: 0.391, auc: 0.721, fid+: 0.3233, fid-: 0.3158, charact: 0.4391, worst_group_acc: 0.1387, per_class: {0: 0.8810126582278481, 1: 0.1386861313868613, 2: 0.18781725888324874}
+Epoch 10, loss: 1.480, acc: 0.582
+Eval epoch 10, loss: 0.845, acc: 0.566
+Test epoch 10, loss: 0.805, acc: 0.583, auc: 0.793, fid+: 0.4458, fid-: 0.3458, charact: 0.5303, worst_group_acc: 0.3020, per_class: {0: 0.7417721518987341, 1: 0.7566909975669099, 2: 0.3020304568527919}
+Epoch 11, loss: 1.487, acc: 0.588
+Eval epoch 11, loss: 0.838, acc: 0.603
+Test epoch 11, loss: 0.792, acc: 0.619, auc: 0.796, fid+: 0.5108, fid-: 0.4625, charact: 0.5238, worst_group_acc: 0.3899, per_class: {0: 0.389873417721519, 1: 0.7883211678832117, 2: 0.583756345177665}
+Epoch 12, loss: 1.442, acc: 0.601
+Eval epoch 12, loss: 0.855, acc: 0.583
+Test epoch 12, loss: 0.826, acc: 0.602, auc: 0.793, fid+: 0.5817, fid-: 0.5042, charact: 0.5353, worst_group_acc: 0.2658, per_class: {0: 0.26582278481012656, 1: 0.6739659367396593, 2: 0.8705583756345178}
+Epoch 13, loss: 1.452, acc: 0.598
+Eval epoch 13, loss: 1.051, acc: 0.492
+Test epoch 13, loss: 1.035, acc: 0.501, auc: 0.687, fid+: 0.7258, fid-: 0.5108, charact: 0.5845, worst_group_acc: 0.3215, per_class: {0: 0.32151898734177214, 1: 0.3722627737226277, 2: 0.8324873096446701}
+Epoch 14, loss: 1.559, acc: 0.548
+Eval epoch 14, loss: 0.805, acc: 0.567
+Test epoch 14, loss: 0.815, acc: 0.555, auc: 0.794, fid+: 0.3092, fid-: 0.2650, charact: 0.4353, worst_group_acc: 0.0279, per_class: {0: 0.9113924050632911, 1: 0.6934306569343066, 2: 0.027918781725888325}
+Epoch 15, loss: 1.426, acc: 0.614
+Eval epoch 15, loss: 0.730, acc: 0.643
+Test epoch 15, loss: 0.741, acc: 0.643, auc: 0.814, fid+: 0.6608, fid-: 0.4808, charact: 0.5815, worst_group_acc: 0.3747, per_class: {0: 0.37468354430379747, 1: 0.7980535279805353, 2: 0.6878172588832487}
+Epoch 16, loss: 1.415, acc: 0.615
+Eval epoch 16, loss: 0.796, acc: 0.585
+Test epoch 16, loss: 0.794, acc: 0.582, auc: 0.802, fid+: 0.3275, fid-: 0.3183, charact: 0.4424, worst_group_acc: 0.0305, per_class: {0: 0.9291139240506329, 1: 0.8077858880778589, 2: 0.030456852791878174}
+Epoch 17, loss: 1.428, acc: 0.613
+Eval epoch 17, loss: 0.795, acc: 0.616
+Test epoch 17, loss: 0.763, acc: 0.615, auc: 0.815, fid+: 0.5592, fid-: 0.3883, charact: 0.5842, worst_group_acc: 0.4582, per_class: {0: 0.4582278481012658, 1: 0.7347931873479319, 2: 0.6218274111675127}
+Epoch 18, loss: 1.404, acc: 0.626
+Eval epoch 18, loss: 0.769, acc: 0.627
+Test epoch 18, loss: 0.759, acc: 0.591, auc: 0.812, fid+: 0.4550, fid-: 0.3858, charact: 0.5227, worst_group_acc: 0.1421, per_class: {0: 0.7620253164556962, 1: 0.8248175182481752, 2: 0.14213197969543148}
+Epoch 19, loss: 1.379, acc: 0.632
+Eval epoch 19, loss: 0.804, acc: 0.609
+Test epoch 19, loss: 0.766, acc: 0.632, auc: 0.829, fid+: 0.3900, fid-: 0.3150, charact: 0.4970, worst_group_acc: 0.2101, per_class: {0: 0.21012658227848102, 1: 0.6520681265206812, 2: 0.9263959390862944}
+Epoch 20, loss: 1.426, acc: 0.610
+Eval epoch 20, loss: 1.027, acc: 0.536
+Test epoch 20, loss: 1.054, acc: 0.542, auc: 0.779, fid+: 0.7333, fid-: 0.5117, charact: 0.5863, worst_group_acc: 0.2354, per_class: {0: 0.23544303797468355, 1: 0.9051094890510949, 2: 0.4263959390862944}
+Epoch 21, loss: 1.309, acc: 0.619
+Eval epoch 21, loss: 0.776, acc: 0.635
+Test epoch 21, loss: 0.743, acc: 0.647, auc: 0.809, fid+: 0.7542, fid-: 0.5300, charact: 0.5791, worst_group_acc: 0.5772, per_class: {0: 0.5772151898734177, 1: 0.7664233576642335, 2: 0.5888324873096447}
+Epoch 22, loss: 1.229, acc: 0.636
+Eval epoch 22, loss: 0.767, acc: 0.607
+Test epoch 22, loss: 0.739, acc: 0.599, auc: 0.838, fid+: 0.4933, fid-: 0.2992, charact: 0.5791, worst_group_acc: 0.0102, per_class: {0: 0.9265822784810127, 1: 0.8540145985401459, 2: 0.01015228426395939}
+Epoch 23, loss: 1.239, acc: 0.632
+Eval epoch 23, loss: 0.772, acc: 0.611
+Test epoch 23, loss: 0.777, acc: 0.606, auc: 0.804, fid+: 0.7708, fid-: 0.5625, charact: 0.5582, worst_group_acc: 0.2987, per_class: {0: 0.29873417721518986, 1: 0.8759124087591241, 2: 0.6776649746192893}
+Epoch 24, loss: 1.219, acc: 0.637
+Eval epoch 24, loss: 0.703, acc: 0.660
+Test epoch 24, loss: 0.702, acc: 0.658, auc: 0.831, fid+: 0.7233, fid-: 0.5533, charact: 0.5523, worst_group_acc: 0.5089, per_class: {0: 0.5088607594936709, 1: 0.8832116788321168, 2: 0.5710659898477157}
+Epoch 25, loss: 1.225, acc: 0.635
+Eval epoch 25, loss: 0.855, acc: 0.585
+Test epoch 25, loss: 0.829, acc: 0.613, auc: 0.821, fid+: 0.3683, fid-: 0.4392, charact: 0.4446, worst_group_acc: 0.1494, per_class: {0: 0.14936708860759493, 1: 0.6885644768856448, 2: 0.9670050761421319}
+Epoch 26, loss: 1.208, acc: 0.644
+Eval epoch 26, loss: 0.777, acc: 0.618
+Test epoch 26, loss: 0.762, acc: 0.613, auc: 0.835, fid+: 0.5700, fid-: 0.3733, charact: 0.5970, worst_group_acc: 0.2310, per_class: {0: 0.8405063291139241, 1: 0.7055961070559611, 2: 0.23096446700507614}
+Epoch 27, loss: 1.207, acc: 0.636
+Eval epoch 27, loss: 0.687, acc: 0.659
+Test epoch 27, loss: 0.701, acc: 0.653, auc: 0.835, fid+: 0.6417, fid-: 0.5417, charact: 0.5347, worst_group_acc: 0.2532, per_class: {0: 0.25316455696202533, 1: 0.7883211678832117, 2: 0.9137055837563451}
+Epoch 28, loss: 1.198, acc: 0.644
+Eval epoch 28, loss: 0.706, acc: 0.662
+Test epoch 28, loss: 0.694, acc: 0.661, auc: 0.833, fid+: 0.7750, fid-: 0.6225, charact: 0.5077, worst_group_acc: 0.3418, per_class: {0: 0.34177215189873417, 1: 0.7883211678832117, 2: 0.8401015228426396}
+Epoch 29, loss: 1.177, acc: 0.649
+Eval epoch 29, loss: 0.666, acc: 0.688
+Test epoch 29, loss: 0.680, acc: 0.671, auc: 0.841, fid+: 0.6033, fid-: 0.5525, charact: 0.5139, worst_group_acc: 0.5316, per_class: {0: 0.5316455696202531, 1: 0.8491484184914841, 2: 0.616751269035533}
+Epoch 30, loss: 1.164, acc: 0.653
+Eval epoch 30, loss: 0.669, acc: 0.679
+Test epoch 30, loss: 0.682, acc: 0.667, auc: 0.840, fid+: 0.6400, fid-: 0.5808, charact: 0.5066, worst_group_acc: 0.3165, per_class: {0: 0.31645569620253167, 1: 0.8467153284671532, 2: 0.8147208121827412}
+Epoch 31, loss: 1.167, acc: 0.649
+Eval epoch 31, loss: 0.881, acc: 0.548
+Test epoch 31, loss: 0.851, acc: 0.555, auc: 0.832, fid+: 0.2525, fid-: 0.2275, charact: 0.3806, worst_group_acc: 0.0406, per_class: {0: 0.9873417721518988, 1: 0.6326034063260341, 2: 0.04060913705583756}
+Epoch 32, loss: 1.180, acc: 0.648
+Eval epoch 32, loss: 0.943, acc: 0.603
+Test epoch 32, loss: 0.928, acc: 0.597, auc: 0.804, fid+: 0.7200, fid-: 0.5083, charact: 0.5843, worst_group_acc: 0.3899, per_class: {0: 0.389873417721519, 1: 0.5669099756690997, 2: 0.8248730964467005}
+Epoch 33, loss: 1.171, acc: 0.649
+Eval epoch 33, loss: 0.826, acc: 0.633
+Test epoch 33, loss: 0.839, acc: 0.622, auc: 0.826, fid+: 0.6325, fid-: 0.5233, charact: 0.5436, worst_group_acc: 0.5190, per_class: {0: 0.5189873417721519, 1: 0.6666666666666666, 2: 0.6776649746192893}
+Epoch 34, loss: 1.162, acc: 0.658
+Eval epoch 34, loss: 0.738, acc: 0.648
+Test epoch 34, loss: 0.676, acc: 0.675, auc: 0.845, fid+: 0.7025, fid-: 0.5625, charact: 0.5392, worst_group_acc: 0.3392, per_class: {0: 0.3392405063291139, 1: 0.7664233576642335, 2: 0.883248730964467}
+Epoch 35, loss: 1.162, acc: 0.657
+Eval epoch 35, loss: 0.686, acc: 0.636
+Test epoch 35, loss: 0.685, acc: 0.637, auc: 0.845, fid+: 0.3658, fid-: 0.3433, charact: 0.4699, worst_group_acc: 0.0736, per_class: {0: 0.8886075949367088, 1: 0.8564476885644768, 2: 0.07360406091370558}
+Epoch 36, loss: 1.170, acc: 0.658
+Eval epoch 36, loss: 1.577, acc: 0.425
+Test epoch 36, loss: 1.608, acc: 0.407, auc: 0.798, fid+: 0.2483, fid-: 0.2175, charact: 0.3770, worst_group_acc: 0.0709, per_class: {0: 0.07088607594936709, 1: 0.9902676399026764, 2: 0.1802030456852792}
+Epoch 37, loss: 1.161, acc: 0.656
+Eval epoch 37, loss: 0.792, acc: 0.613
+Test epoch 37, loss: 0.787, acc: 0.594, auc: 0.821, fid+: 0.5625, fid-: 0.4800, charact: 0.5404, worst_group_acc: 0.3782, per_class: {0: 0.529113924050633, 1: 0.8905109489051095, 2: 0.37817258883248733}
+Epoch 38, loss: 1.171, acc: 0.653
+Eval epoch 38, loss: 0.712, acc: 0.670
+Test epoch 38, loss: 0.746, acc: 0.646, auc: 0.835, fid+: 0.7225, fid-: 0.5308, charact: 0.5689, worst_group_acc: 0.3949, per_class: {0: 0.3949367088607595, 1: 0.7420924574209246, 2: 0.8324873096446701}
+Epoch 39, loss: 1.178, acc: 0.651
+Eval epoch 39, loss: 0.713, acc: 0.675
+Test epoch 39, loss: 0.769, acc: 0.660, auc: 0.841, fid+: 0.5383, fid-: 0.5400, charact: 0.4961, worst_group_acc: 0.3722, per_class: {0: 0.3721518987341772, 1: 0.8929440389294404, 2: 0.6243654822335025}
+Epoch 40, loss: 1.144, acc: 0.665
+Eval epoch 40, loss: 4.247, acc: 0.431
+Test epoch 40, loss: 4.400, acc: 0.397, auc: 0.744, fid+: 0.6767, fid-: 0.4933, charact: 0.5795, worst_group_acc: 0.0076, per_class: {0: 0.21518987341772153, 1: 0.9951338199513382, 2: 0.007614213197969543}
+Epoch 41, loss: 1.251, acc: 0.628
+Eval epoch 41, loss: 0.770, acc: 0.656
+Test epoch 41, loss: 0.742, acc: 0.647, auc: 0.831, fid+: 0.6242, fid-: 0.5250, charact: 0.5395, worst_group_acc: 0.3772, per_class: {0: 0.37721518987341773, 1: 0.8710462287104623, 2: 0.7055837563451777}
+Epoch 42, loss: 1.301, acc: 0.626
+Eval epoch 42, loss: 0.800, acc: 0.629
+Test epoch 42, loss: 0.770, acc: 0.637, auc: 0.835, fid+: 0.7808, fid-: 0.4842, charact: 0.6213, worst_group_acc: 0.2354, per_class: {0: 0.23544303797468355, 1: 0.708029197080292, 2: 0.9289340101522843}
+Epoch 43, loss: 1.244, acc: 0.639
+Eval epoch 43, loss: 0.753, acc: 0.623
+Test epoch 43, loss: 0.751, acc: 0.625, auc: 0.841, fid+: 0.5725, fid-: 0.5075, charact: 0.5295, worst_group_acc: 0.3823, per_class: {0: 0.3822784810126582, 1: 0.9294403892944039, 2: 0.5558375634517766}
+Epoch 44, loss: 1.258, acc: 0.636
+Eval epoch 44, loss: 0.769, acc: 0.627
+Test epoch 44, loss: 0.787, acc: 0.612, auc: 0.806, fid+: 0.5667, fid-: 0.5300, charact: 0.5138, worst_group_acc: 0.5381, per_class: {0: 0.6430379746835443, 1: 0.6666666666666666, 2: 0.5380710659898477}
+Epoch 45, loss: 1.244, acc: 0.648
+Eval epoch 45, loss: 0.673, acc: 0.657
+Test epoch 45, loss: 0.690, acc: 0.627, auc: 0.842, fid+: 0.3783, fid-: 0.3108, charact: 0.4885, worst_group_acc: 0.1624, per_class: {0: 0.9012658227848102, 1: 0.8442822384428224, 2: 0.16243654822335024}
+Epoch 46, loss: 1.219, acc: 0.645
+Eval epoch 46, loss: 0.647, acc: 0.678
+Test epoch 46, loss: 0.842, acc: 0.656, auc: 0.823, fid+: 0.7058, fid-: 0.5325, charact: 0.5625, worst_group_acc: 0.3139, per_class: {0: 0.3139240506329114, 1: 0.8661800486618005, 2: 0.7944162436548223}
+Epoch 47, loss: 1.193, acc: 0.658
+Eval epoch 47, loss: 0.618, acc: 0.701
+Test epoch 47, loss: 0.627, acc: 0.688, auc: 0.863, fid+: 0.7775, fid-: 0.5483, charact: 0.5714, worst_group_acc: 0.2785, per_class: {0: 0.27848101265822783, 1: 0.8418491484184915, 2: 0.9365482233502538}
+Epoch 48, loss: 1.201, acc: 0.659
+Eval epoch 48, loss: 0.994, acc: 0.568
+Test epoch 48, loss: 0.977, acc: 0.573, auc: 0.804, fid+: 0.7842, fid-: 0.7367, charact: 0.3943, worst_group_acc: 0.0582, per_class: {0: 0.05822784810126582, 1: 0.8467153284671532, 2: 0.8197969543147208}
+Epoch 49, loss: 1.197, acc: 0.659
+Eval epoch 49, loss: 0.706, acc: 0.656
+Test epoch 49, loss: 0.740, acc: 0.632, auc: 0.833, fid+: 0.6917, fid-: 0.5883, charact: 0.5161, worst_group_acc: 0.4658, per_class: {0: 0.46582278481012657, 1: 0.8856447688564477, 2: 0.5101522842639594}
+Epoch 50, loss: 1.205, acc: 0.641
+Eval epoch 50, loss: 1.380, acc: 0.418
+Test epoch 50, loss: 1.356, acc: 0.402, auc: 0.798, fid+: 0.4875, fid-: 0.6325, charact: 0.4191, worst_group_acc: 0.1013, per_class: {0: 0.10126582278481013, 1: 0.9902676399026764, 2: 0.14213197969543148}
+Epoch 51, loss: 1.263, acc: 0.643
+Eval epoch 51, loss: 0.671, acc: 0.672
+Test epoch 51, loss: 0.743, acc: 0.655, auc: 0.830, fid+: 0.6567, fid-: 0.5850, charact: 0.5086, worst_group_acc: 0.4329, per_class: {0: 0.43291139240506327, 1: 0.8661800486618005, 2: 0.6776649746192893}
+Epoch 52, loss: 1.221, acc: 0.654
+Eval epoch 52, loss: 0.832, acc: 0.657
+Test epoch 52, loss: 1.169, acc: 0.650, auc: 0.818, fid+: 0.6808, fid-: 0.6017, charact: 0.5026, worst_group_acc: 0.3924, per_class: {0: 0.3924050632911392, 1: 0.8077858880778589, 2: 0.6878172588832487}
+Epoch 53, loss: 1.205, acc: 0.663
+Eval epoch 53, loss: 0.725, acc: 0.648
+Test epoch 53, loss: 0.779, acc: 0.604, auc: 0.810, fid+: 0.6508, fid-: 0.5800, charact: 0.5105, worst_group_acc: 0.4506, per_class: {0: 0.4506329113924051, 1: 0.7518248175182481, 2: 0.682741116751269}
+Epoch 54, loss: 1.215, acc: 0.661
+Eval epoch 54, loss: 1.831, acc: 0.629
+Test epoch 54, loss: 2.079, acc: 0.610, auc: 0.788, fid+: 0.6475, fid-: 0.5558, charact: 0.5269, worst_group_acc: 0.4645, per_class: {0: 0.46582278481012657, 1: 0.8759124087591241, 2: 0.46446700507614214}
+Epoch 55, loss: 1.235, acc: 0.644
+Eval epoch 55, loss: 1.126, acc: 0.529
+Test epoch 55, loss: 1.136, acc: 0.534, auc: 0.809, fid+: 0.6692, fid-: 0.3917, charact: 0.6373, worst_group_acc: 0.2456, per_class: {0: 0.24556962025316456, 1: 0.9318734793187348, 2: 0.4010152284263959}
+Epoch 56, loss: 1.215, acc: 0.647
+Eval epoch 56, loss: 0.699, acc: 0.663
+Test epoch 56, loss: 0.714, acc: 0.645, auc: 0.833, fid+: 0.5992, fid-: 0.5550, charact: 0.5107, worst_group_acc: 0.5747, per_class: {0: 0.5746835443037974, 1: 0.7907542579075426, 2: 0.6091370558375635}
+Epoch 57, loss: 1.221, acc: 0.655
+Eval epoch 57, loss: 0.843, acc: 0.649
+Test epoch 57, loss: 0.915, acc: 0.618, auc: 0.817, fid+: 0.6500, fid-: 0.5392, charact: 0.5393, worst_group_acc: 0.4177, per_class: {0: 0.4177215189873418, 1: 0.8613138686131386, 2: 0.5355329949238579}
+Epoch 58, loss: 1.202, acc: 0.666
+Eval epoch 58, loss: 0.646, acc: 0.676
+Test epoch 58, loss: 0.658, acc: 0.675, auc: 0.847, fid+: 0.7100, fid-: 0.5633, charact: 0.5408, worst_group_acc: 0.3266, per_class: {0: 0.3265822784810127, 1: 0.8248175182481752, 2: 0.8401015228426396}
+Epoch 59, loss: 1.210, acc: 0.664
+Eval epoch 59, loss: 0.649, acc: 0.683
+Test epoch 59, loss: 0.741, acc: 0.652, auc: 0.835, fid+: 0.6675, fid-: 0.5267, charact: 0.5539, worst_group_acc: 0.4532, per_class: {0: 0.4531645569620253, 1: 0.8759124087591241, 2: 0.631979695431472}
+Epoch 60, loss: 1.190, acc: 0.665
+Eval epoch 60, loss: 0.641, acc: 0.679
+Test epoch 60, loss: 0.691, acc: 0.664, auc: 0.839, fid+: 0.6725, fid-: 0.5717, charact: 0.5233, worst_group_acc: 0.4076, per_class: {0: 0.40759493670886077, 1: 0.8345498783454988, 2: 0.7309644670050761}
+Epoch 61, loss: 1.213, acc: 0.661
+Eval epoch 61, loss: 0.731, acc: 0.663
+Test epoch 61, loss: 0.747, acc: 0.643, auc: 0.835, fid+: 0.6650, fid-: 0.5908, charact: 0.5066, worst_group_acc: 0.5215, per_class: {0: 0.5215189873417722, 1: 0.7396593673965937, 2: 0.6446700507614214}
+Epoch 62, loss: 1.205, acc: 0.661
+Eval epoch 62, loss: 0.791, acc: 0.641
+Test epoch 62, loss: 0.780, acc: 0.649, auc: 0.841, fid+: 0.5942, fid-: 0.5258, charact: 0.5274, worst_group_acc: 0.3038, per_class: {0: 0.3037974683544304, 1: 0.9318734793187348, 2: 0.682741116751269}
+Epoch 63, loss: 1.268, acc: 0.642
+Eval epoch 63, loss: 0.652, acc: 0.668
+Test epoch 63, loss: 0.672, acc: 0.664, auc: 0.842, fid+: 0.6608, fid-: 0.5350, charact: 0.5459, worst_group_acc: 0.4835, per_class: {0: 0.4835443037974684, 1: 0.8199513381995134, 2: 0.700507614213198}
+Epoch 64, loss: 1.216, acc: 0.658
+Eval epoch 64, loss: 0.689, acc: 0.678
+Test epoch 64, loss: 0.652, acc: 0.672, auc: 0.851, fid+: 0.6983, fid-: 0.5450, charact: 0.5510, worst_group_acc: 0.4835, per_class: {0: 0.4835443037974684, 1: 0.851581508515815, 2: 0.682741116751269}
+Epoch 65, loss: 1.186, acc: 0.672
+Eval epoch 65, loss: 0.817, acc: 0.617
+Test epoch 65, loss: 0.848, acc: 0.590, auc: 0.836, fid+: 0.5483, fid-: 0.3858, charact: 0.5794, worst_group_acc: 0.3696, per_class: {0: 0.369620253164557, 1: 0.9805352798053528, 2: 0.43147208121827413}
+Epoch 66, loss: 1.176, acc: 0.674
+Eval epoch 66, loss: 0.783, acc: 0.642
+Test epoch 66, loss: 0.760, acc: 0.628, auc: 0.834, fid+: 0.5483, fid-: 0.5208, charact: 0.5114, worst_group_acc: 0.5558, per_class: {0: 0.6582278481012658, 1: 0.6715328467153284, 2: 0.5558375634517766}
+Epoch 67, loss: 1.194, acc: 0.666
+Eval epoch 67, loss: 0.752, acc: 0.661
+Test epoch 67, loss: 0.712, acc: 0.667, auc: 0.842, fid+: 0.6575, fid-: 0.5242, charact: 0.5521, worst_group_acc: 0.5443, per_class: {0: 0.5443037974683544, 1: 0.7566909975669099, 2: 0.6878172588832487}
+Epoch 68, loss: 1.169, acc: 0.673
+Eval epoch 68, loss: 0.623, acc: 0.690
+Test epoch 68, loss: 0.627, acc: 0.683, auc: 0.861, fid+: 0.6242, fid-: 0.4967, charact: 0.5573, worst_group_acc: 0.6091, per_class: {0: 0.6177215189873417, 1: 0.8199513381995134, 2: 0.6091370558375635}
+Epoch 69, loss: 1.196, acc: 0.667
+Eval epoch 69, loss: 1.286, acc: 0.542
+Test epoch 69, loss: 1.289, acc: 0.517, auc: 0.817, fid+: 0.6608, fid-: 0.4117, charact: 0.6225, worst_group_acc: 0.1848, per_class: {0: 0.1848101265822785, 1: 0.975669099756691, 2: 0.39847715736040606}
+Epoch 70, loss: 1.190, acc: 0.680
+Eval epoch 70, loss: 1.733, acc: 0.438
+Test epoch 70, loss: 1.733, acc: 0.408, auc: 0.654, fid+: 0.4183, fid-: 0.2625, charact: 0.5339, worst_group_acc: 0.0195, per_class: {0: 0.7063291139240506, 1: 0.019464720194647202, 2: 0.5304568527918782}
+Epoch 71, loss: 1.278, acc: 0.651
+Eval epoch 71, loss: 0.723, acc: 0.647
+Test epoch 71, loss: 0.733, acc: 0.620, auc: 0.836, fid+: 0.4458, fid-: 0.4233, charact: 0.5029, worst_group_acc: 0.3223, per_class: {0: 0.769620253164557, 1: 0.7250608272506083, 2: 0.3223350253807107}
+Epoch 72, loss: 1.375, acc: 0.648
+Eval epoch 72, loss: 0.676, acc: 0.683
+Test epoch 72, loss: 0.702, acc: 0.645, auc: 0.835, fid+: 0.6517, fid-: 0.5508, charact: 0.5318, worst_group_acc: 0.5519, per_class: {0: 0.5518987341772152, 1: 0.7639902676399026, 2: 0.6573604060913706}
+Epoch 73, loss: 1.340, acc: 0.660
+Eval epoch 73, loss: 0.711, acc: 0.650
+Test epoch 73, loss: 0.692, acc: 0.665, auc: 0.837, fid+: 0.6775, fid-: 0.5667, charact: 0.5286, worst_group_acc: 0.4405, per_class: {0: 0.44050632911392407, 1: 0.7834549878345499, 2: 0.6979695431472082}
+Epoch 74, loss: 1.358, acc: 0.652
+Eval epoch 74, loss: 0.739, acc: 0.663
+Test epoch 74, loss: 0.727, acc: 0.640, auc: 0.837, fid+: 0.7783, fid-: 0.5442, charact: 0.5749, worst_group_acc: 0.2785, per_class: {0: 0.27848101265822783, 1: 0.8710462287104623, 2: 0.6928934010152284}
+Epoch 75, loss: 1.342, acc: 0.668
+Eval epoch 75, loss: 0.694, acc: 0.663
+Test epoch 75, loss: 0.714, acc: 0.661, auc: 0.836, fid+: 0.6667, fid-: 0.5875, charact: 0.5097, worst_group_acc: 0.5089, per_class: {0: 0.5088607594936709, 1: 0.7372262773722628, 2: 0.7106598984771574}
+Epoch 76, loss: 1.346, acc: 0.665
+Eval epoch 76, loss: 0.658, acc: 0.673
+Test epoch 76, loss: 0.663, acc: 0.680, auc: 0.841, fid+: 0.6325, fid-: 0.5550, charact: 0.5224, worst_group_acc: 0.5848, per_class: {0: 0.5848101265822785, 1: 0.8418491484184915, 2: 0.6065989847715736}
+Epoch 77, loss: 1.323, acc: 0.678
+Eval epoch 77, loss: 5.690, acc: 0.421
+Test epoch 77, loss: 7.313, acc: 0.412, auc: 0.698, fid+: 0.8950, fid-: 0.6008, charact: 0.5521, worst_group_acc: 0.0658, per_class: {0: 0.06582278481012659, 1: 0.9902676399026764, 2: 0.1548223350253807}
+Epoch 78, loss: 1.344, acc: 0.664
+Eval epoch 78, loss: 0.742, acc: 0.652
+Test epoch 78, loss: 0.809, acc: 0.617, auc: 0.824, fid+: 0.8492, fid-: 0.6108, charact: 0.5337, worst_group_acc: 0.2304, per_class: {0: 0.23037974683544304, 1: 0.9099756690997567, 2: 0.7817258883248731}
+Epoch 79, loss: 1.367, acc: 0.652
+Eval epoch 79, loss: 0.718, acc: 0.680
+Test epoch 79, loss: 0.688, acc: 0.670, auc: 0.842, fid+: 0.5967, fid-: 0.5283, charact: 0.5269, worst_group_acc: 0.5152, per_class: {0: 0.6303797468354431, 1: 0.7956204379562044, 2: 0.5152284263959391}
+Epoch 80, loss: 1.382, acc: 0.642
+Eval epoch 80, loss: 1.212, acc: 0.532
+Test epoch 80, loss: 1.221, acc: 0.538, auc: 0.766, fid+: 0.7567, fid-: 0.6950, charact: 0.4348, worst_group_acc: 0.3063, per_class: {0: 0.30632911392405066, 1: 0.44768856447688565, 2: 0.8426395939086294}
+Epoch 81, loss: 1.372, acc: 0.645
+Eval epoch 81, loss: 1.478, acc: 0.501
+Test epoch 81, loss: 1.448, acc: 0.483, auc: 0.728, fid+: 0.6008, fid-: 0.5483, charact: 0.5157, worst_group_acc: 0.2433, per_class: {0: 0.5063291139240507, 1: 0.24330900243309003, 2: 0.6852791878172588}
+Epoch 82, loss: 1.389, acc: 0.634
+Eval epoch 82, loss: 0.798, acc: 0.606
+Test epoch 82, loss: 0.758, acc: 0.637, auc: 0.828, fid+: 0.6767, fid-: 0.6483, charact: 0.4628, worst_group_acc: 0.3975, per_class: {0: 0.39746835443037976, 1: 0.732360097323601, 2: 0.7258883248730964}
+Epoch 83, loss: 1.338, acc: 0.652
+Eval epoch 83, loss: 0.886, acc: 0.581
+Test epoch 83, loss: 0.908, acc: 0.568, auc: 0.761, fid+: 0.6617, fid-: 0.6642, charact: 0.4455, worst_group_acc: 0.4380, per_class: {0: 0.4379746835443038, 1: 0.6374695863746959, 2: 0.6776649746192893}
+Epoch 84, loss: 1.332, acc: 0.656
+Eval epoch 84, loss: 0.636, acc: 0.698
+Test epoch 84, loss: 0.634, acc: 0.667, auc: 0.853, fid+: 0.5308, fid-: 0.5017, charact: 0.5141, worst_group_acc: 0.5051, per_class: {0: 0.6253164556962025, 1: 0.8880778588807786, 2: 0.5050761421319797}
+Epoch 85, loss: 1.379, acc: 0.644
+Eval epoch 85, loss: 0.780, acc: 0.618
+Test epoch 85, loss: 0.990, acc: 0.632, auc: 0.822, fid+: 0.8125, fid-: 0.6375, charact: 0.5013, worst_group_acc: 0.2051, per_class: {0: 0.20506329113924052, 1: 0.8856447688564477, 2: 0.751269035532995}
+Epoch 86, loss: 1.358, acc: 0.644
+Eval epoch 86, loss: 0.668, acc: 0.670
+Test epoch 86, loss: 0.725, acc: 0.636, auc: 0.819, fid+: 0.7383, fid-: 0.6683, charact: 0.4577, worst_group_acc: 0.3544, per_class: {0: 0.35443037974683544, 1: 0.8004866180048662, 2: 0.7842639593908629}
+Epoch 87, loss: 1.338, acc: 0.646
+Eval epoch 87, loss: 0.674, acc: 0.659
+Test epoch 87, loss: 0.700, acc: 0.667, auc: 0.841, fid+: 0.4608, fid-: 0.4233, charact: 0.5123, worst_group_acc: 0.3147, per_class: {0: 0.7848101265822784, 1: 0.9051094890510949, 2: 0.3147208121827411}
+Epoch 88, loss: 1.349, acc: 0.648
+Eval epoch 88, loss: 1.000, acc: 0.578
+Test epoch 88, loss: 1.125, acc: 0.529, auc: 0.746, fid+: 0.6658, fid-: 0.6367, charact: 0.4701, worst_group_acc: 0.4835, per_class: {0: 0.4835443037974684, 1: 0.49148418491484186, 2: 0.6624365482233503}
+Epoch 89, loss: 1.309, acc: 0.662
+Eval epoch 89, loss: 0.667, acc: 0.662
+Test epoch 89, loss: 0.668, acc: 0.669, auc: 0.850, fid+: 0.7558, fid-: 0.6325, charact: 0.4945, worst_group_acc: 0.2962, per_class: {0: 0.29620253164556964, 1: 0.9221411192214112, 2: 0.8401015228426396}
+Epoch 90, loss: 1.368, acc: 0.651
+Eval epoch 90, loss: 0.631, acc: 0.666
+Test epoch 90, loss: 0.648, acc: 0.673, auc: 0.844, fid+: 0.5733, fid-: 0.4967, charact: 0.5361, worst_group_acc: 0.4898, per_class: {0: 0.6632911392405063, 1: 0.8394160583941606, 2: 0.48984771573604063}
+Epoch 91, loss: 1.322, acc: 0.670
+Eval epoch 91, loss: 0.885, acc: 0.591
+Test epoch 91, loss: 0.896, acc: 0.577, auc: 0.837, fid+: 0.8392, fid-: 0.6050, charact: 0.5372, worst_group_acc: 0.0810, per_class: {0: 0.0810126582278481, 1: 0.9318734793187348, 2: 0.700507614213198}
+Epoch 92, loss: 1.316, acc: 0.673
+Eval epoch 92, loss: 0.636, acc: 0.681
+Test epoch 92, loss: 0.664, acc: 0.665, auc: 0.844, fid+: 0.6725, fid-: 0.6342, charact: 0.4739, worst_group_acc: 0.3544, per_class: {0: 0.35443037974683544, 1: 0.8734793187347932, 2: 0.7969543147208121}
+Epoch 93, loss: 1.324, acc: 0.670
+Eval epoch 93, loss: 0.698, acc: 0.675
+Test epoch 93, loss: 0.709, acc: 0.659, auc: 0.847, fid+: 0.5375, fid-: 0.5358, charact: 0.4981, worst_group_acc: 0.4785, per_class: {0: 0.47848101265822784, 1: 0.9440389294403893, 2: 0.5228426395939086}
+Epoch 94, loss: 1.358, acc: 0.657
+Eval epoch 94, loss: 0.760, acc: 0.640
+Test epoch 94, loss: 0.734, acc: 0.623, auc: 0.835, fid+: 0.7242, fid-: 0.6117, charact: 0.5056, worst_group_acc: 0.3848, per_class: {0: 0.3848101265822785, 1: 0.9124087591240876, 2: 0.5685279187817259}
+Epoch 95, loss: 1.345, acc: 0.657
+Eval epoch 95, loss: 1.534, acc: 0.544
+Test epoch 95, loss: 1.557, acc: 0.551, auc: 0.805, fid+: 0.6008, fid-: 0.4275, charact: 0.5863, worst_group_acc: 0.1675, per_class: {0: 0.44050632911392407, 1: 0.9513381995133819, 2: 0.16751269035532995}
+Epoch 96, loss: 1.346, acc: 0.655
+Eval epoch 96, loss: 0.729, acc: 0.666
+Test epoch 96, loss: 0.630, acc: 0.681, auc: 0.854, fid+: 0.6175, fid-: 0.5458, charact: 0.5234, worst_group_acc: 0.5609, per_class: {0: 0.569620253164557, 1: 0.8637469586374696, 2: 0.5609137055837563}
+Epoch 97, loss: 1.337, acc: 0.659
+Eval epoch 97, loss: 0.699, acc: 0.649
+Test epoch 97, loss: 0.703, acc: 0.663, auc: 0.837, fid+: 0.8033, fid-: 0.6933, charact: 0.4439, worst_group_acc: 0.3089, per_class: {0: 0.30886075949367087, 1: 0.8199513381995134, 2: 0.8197969543147208}
+Epoch 98, loss: 1.337, acc: 0.657
+Eval epoch 98, loss: 0.738, acc: 0.643
+Test epoch 98, loss: 0.751, acc: 0.648, auc: 0.826, fid+: 0.6708, fid-: 0.6608, charact: 0.4505, worst_group_acc: 0.3671, per_class: {0: 0.3670886075949367, 1: 0.7591240875912408, 2: 0.7944162436548223}
+Epoch 99, loss: 1.350, acc: 0.653
+Eval epoch 99, loss: 0.881, acc: 0.592
+Test epoch 99, loss: 0.889, acc: 0.588, auc: 0.789, fid+: 0.5217, fid-: 0.5167, charact: 0.5018, worst_group_acc: 0.4391, per_class: {0: 0.6556962025316456, 1: 0.6155717761557178, 2: 0.43908629441624364}
+Epoch 100, loss: 1.404, acc: 0.644
+Eval epoch 100, loss: 0.679, acc: 0.659
+Test epoch 100, loss: 0.697, acc: 0.640, auc: 0.825, fid+: 0.6075, fid-: 0.5300, charact: 0.5300, worst_group_acc: 0.5215, per_class: {0: 0.5215189873417722, 1: 0.8491484184914841, 2: 0.5558375634517766}
+Epoch 101, loss: 1.381, acc: 0.666
+Eval epoch 101, loss: 0.659, acc: 0.687
+Test epoch 101, loss: 0.686, acc: 0.675, auc: 0.833, fid+: 0.6875, fid-: 0.5967, charact: 0.5084, worst_group_acc: 0.4481, per_class: {0: 0.4481012658227848, 1: 0.8880778588807786, 2: 0.6878172588832487}
+Epoch 102, loss: 1.348, acc: 0.668
+Eval epoch 102, loss: 0.991, acc: 0.556
+Test epoch 102, loss: 1.352, acc: 0.541, auc: 0.784, fid+: 0.7608, fid-: 0.6067, charact: 0.5186, worst_group_acc: 0.3249, per_class: {0: 0.36455696202531646, 1: 0.9245742092457421, 2: 0.3248730964467005}
+Epoch 103, loss: 1.370, acc: 0.654
+Eval epoch 103, loss: 1.848, acc: 0.470
+Test epoch 103, loss: 1.839, acc: 0.468, auc: 0.790, fid+: 0.6175, fid-: 0.3158, charact: 0.6491, worst_group_acc: 0.1142, per_class: {0: 0.2810126582278481, 1: 0.9878345498783455, 2: 0.11421319796954314}
+Epoch 104, loss: 1.340, acc: 0.676
+Eval epoch 104, loss: 1.420, acc: 0.513
+Test epoch 104, loss: 1.350, acc: 0.505, auc: 0.813, fid+: 0.7917, fid-: 0.5250, charact: 0.5937, worst_group_acc: 0.2608, per_class: {0: 0.2607594936708861, 1: 0.9586374695863747, 2: 0.2639593908629442}
+Epoch 105, loss: 1.386, acc: 0.652
+Eval epoch 105, loss: 0.904, acc: 0.607
+Test epoch 105, loss: 0.934, acc: 0.588, auc: 0.791, fid+: 0.6275, fid-: 0.5242, charact: 0.5412, worst_group_acc: 0.5443, per_class: {0: 0.5443037974683544, 1: 0.6082725060827251, 2: 0.6548223350253807}
+Epoch 106, loss: 1.343, acc: 0.667
+Eval epoch 106, loss: 0.688, acc: 0.627
+Test epoch 106, loss: 0.772, acc: 0.627, auc: 0.826, fid+: 0.7600, fid-: 0.6700, charact: 0.4602, worst_group_acc: 0.2481, per_class: {0: 0.2481012658227848, 1: 0.7737226277372263, 2: 0.8781725888324873}
+Epoch 107, loss: 1.365, acc: 0.659
+Eval epoch 107, loss: 0.619, acc: 0.682
+Test epoch 107, loss: 0.640, acc: 0.672, auc: 0.843, fid+: 0.5592, fid-: 0.5875, charact: 0.4748, worst_group_acc: 0.4684, per_class: {0: 0.46835443037974683, 1: 0.8321167883211679, 2: 0.6548223350253807}
+Epoch 108, loss: 1.357, acc: 0.664
+Eval epoch 108, loss: 1.009, acc: 0.514
+Test epoch 108, loss: 1.055, acc: 0.495, auc: 0.781, fid+: 0.3775, fid-: 0.3992, charact: 0.4637, worst_group_acc: 0.0939, per_class: {0: 0.3924050632911392, 1: 0.9464720194647201, 2: 0.09390862944162437}
+Epoch 109, loss: 1.359, acc: 0.660
+Eval epoch 109, loss: 0.621, acc: 0.697
+Test epoch 109, loss: 0.659, acc: 0.664, auc: 0.835, fid+: 0.5692, fid-: 0.5992, charact: 0.4704, worst_group_acc: 0.4861, per_class: {0: 0.4860759493670886, 1: 0.8126520681265207, 2: 0.6675126903553299}
+Epoch 110, loss: 1.382, acc: 0.657
+Eval epoch 110, loss: 0.705, acc: 0.643
+Test epoch 110, loss: 0.740, acc: 0.634, auc: 0.818, fid+: 0.5650, fid-: 0.5442, charact: 0.5046, worst_group_acc: 0.5696, per_class: {0: 0.569620253164557, 1: 0.7785888077858881, 2: 0.5888324873096447}
+Epoch 111, loss: 1.355, acc: 0.667
+Eval epoch 111, loss: 0.689, acc: 0.650
+Test epoch 111, loss: 0.701, acc: 0.630, auc: 0.819, fid+: 0.6292, fid-: 0.5275, charact: 0.5397, worst_group_acc: 0.5152, per_class: {0: 0.5367088607594936, 1: 0.8199513381995134, 2: 0.5152284263959391}
+Epoch 112, loss: 1.349, acc: 0.665
+Eval epoch 112, loss: 0.645, acc: 0.703
+Test epoch 112, loss: 0.657, acc: 0.662, auc: 0.845, fid+: 0.7033, fid-: 0.6133, charact: 0.4990, worst_group_acc: 0.4709, per_class: {0: 0.4708860759493671, 1: 0.8661800486618005, 2: 0.6243654822335025}
+Epoch 113, loss: 1.335, acc: 0.666
+Eval epoch 113, loss: 0.652, acc: 0.691
+Test epoch 113, loss: 0.662, acc: 0.672, auc: 0.848, fid+: 0.5583, fid-: 0.5108, charact: 0.5215, worst_group_acc: 0.5570, per_class: {0: 0.5569620253164557, 1: 0.9002433090024331, 2: 0.565989847715736}
+Epoch 114, loss: 1.367, acc: 0.652
+Eval epoch 114, loss: 0.969, acc: 0.586
+Test epoch 114, loss: 0.988, acc: 0.581, auc: 0.827, fid+: 0.5775, fid-: 0.4858, charact: 0.5440, worst_group_acc: 0.2582, per_class: {0: 0.2582278481012658, 1: 0.9513381995133819, 2: 0.5558375634517766}
+Epoch 115, loss: 1.352, acc: 0.656
+Eval epoch 115, loss: 0.714, acc: 0.644
+Test epoch 115, loss: 0.671, acc: 0.647, auc: 0.837, fid+: 0.7942, fid-: 0.6225, charact: 0.5117, worst_group_acc: 0.2785, per_class: {0: 0.27848101265822783, 1: 0.7834549878345499, 2: 0.8451776649746193}
+Epoch 116, loss: 1.383, acc: 0.647
+Eval epoch 116, loss: 0.743, acc: 0.641
+Test epoch 116, loss: 0.753, acc: 0.623, auc: 0.836, fid+: 0.7892, fid-: 0.5833, charact: 0.5454, worst_group_acc: 0.2532, per_class: {0: 0.25316455696202533, 1: 0.9197080291970803, 2: 0.7284263959390863}
+Epoch 117, loss: 1.344, acc: 0.652
+Eval epoch 117, loss: 0.653, acc: 0.675
+Test epoch 117, loss: 0.642, acc: 0.662, auc: 0.846, fid+: 0.7675, fid-: 0.5592, charact: 0.5600, worst_group_acc: 0.2785, per_class: {0: 0.27848101265822783, 1: 0.9099756690997567, 2: 0.8071065989847716}
+Epoch 118, loss: 1.342, acc: 0.656
+Eval epoch 118, loss: 0.675, acc: 0.677
+Test epoch 118, loss: 0.678, acc: 0.667, auc: 0.834, fid+: 0.6308, fid-: 0.5942, charact: 0.4939, worst_group_acc: 0.4152, per_class: {0: 0.4151898734177215, 1: 0.829683698296837, 2: 0.7131979695431472}
+Epoch 119, loss: 1.375, acc: 0.650
+Eval epoch 119, loss: 0.743, acc: 0.649
+Test epoch 119, loss: 0.712, acc: 0.651, auc: 0.832, fid+: 0.7758, fid-: 0.6392, charact: 0.4926, worst_group_acc: 0.3418, per_class: {0: 0.34177215189873417, 1: 0.8807785888077859, 2: 0.6852791878172588}
+Epoch 120, loss: 1.348, acc: 0.660
+Eval epoch 120, loss: 0.654, acc: 0.657
+Test epoch 120, loss: 0.631, acc: 0.677, auc: 0.846, fid+: 0.5967, fid-: 0.5950, charact: 0.4825, worst_group_acc: 0.5241, per_class: {0: 0.5240506329113924, 1: 0.8248175182481752, 2: 0.682741116751269}
+Epoch 121, loss: 1.347, acc: 0.651
+Eval epoch 121, loss: 0.646, acc: 0.690
+Test epoch 121, loss: 0.668, acc: 0.673, auc: 0.840, fid+: 0.6292, fid-: 0.6075, charact: 0.4834, worst_group_acc: 0.4684, per_class: {0: 0.46835443037974683, 1: 0.7980535279805353, 2: 0.7106598984771574}
+Epoch 122, loss: 1.329, acc: 0.666
+Eval epoch 122, loss: 1.287, acc: 0.498
+Test epoch 122, loss: 1.270, acc: 0.499, auc: 0.751, fid+: 0.8283, fid-: 0.6742, charact: 0.4677, worst_group_acc: 0.1519, per_class: {0: 0.1518987341772152, 1: 0.46228710462287104, 2: 0.9238578680203046}
+Epoch 123, loss: 1.331, acc: 0.662
+Eval epoch 123, loss: 0.682, acc: 0.664
+Test epoch 123, loss: 0.666, acc: 0.663, auc: 0.842, fid+: 0.7475, fid-: 0.6075, charact: 0.5147, worst_group_acc: 0.3316, per_class: {0: 0.33164556962025316, 1: 0.8905109489051095, 2: 0.7715736040609137}
+Epoch 124, loss: 1.323, acc: 0.658
+Eval epoch 124, loss: 0.698, acc: 0.662
+Test epoch 124, loss: 0.699, acc: 0.646, auc: 0.834, fid+: 0.6400, fid-: 0.5592, charact: 0.5221, worst_group_acc: 0.4987, per_class: {0: 0.49873417721518987, 1: 0.8759124087591241, 2: 0.5761421319796954}
+Epoch 125, loss: 1.373, acc: 0.650
+Eval epoch 125, loss: 0.742, acc: 0.641
+Test epoch 125, loss: 0.745, acc: 0.644, auc: 0.824, fid+: 0.6042, fid-: 0.5500, charact: 0.5158, worst_group_acc: 0.4975, per_class: {0: 0.6025316455696202, 1: 0.8126520681265207, 2: 0.49746192893401014}
+Epoch 126, loss: 1.420, acc: 0.623
+Eval epoch 126, loss: 1.557, acc: 0.493
+Test epoch 126, loss: 1.567, acc: 0.497, auc: 0.731, fid+: 0.8025, fid-: 0.7742, charact: 0.3525, worst_group_acc: 0.1620, per_class: {0: 0.1620253164556962, 1: 0.46472019464720193, 2: 0.8857868020304569}
+Epoch 127, loss: 1.380, acc: 0.641
+Eval epoch 127, loss: 0.702, acc: 0.666
+Test epoch 127, loss: 0.724, acc: 0.661, auc: 0.837, fid+: 0.6283, fid-: 0.5775, charact: 0.5053, worst_group_acc: 0.5190, per_class: {0: 0.5189873417721519, 1: 0.8004866180048662, 2: 0.6624365482233503}
+Epoch 128, loss: 1.325, acc: 0.658
+Eval epoch 128, loss: 0.712, acc: 0.667
+Test epoch 128, loss: 0.672, acc: 0.662, auc: 0.836, fid+: 0.6275, fid-: 0.5358, charact: 0.5336, worst_group_acc: 0.5063, per_class: {0: 0.5063291139240507, 1: 0.8613138686131386, 2: 0.5888324873096447}
+Epoch 129, loss: 1.365, acc: 0.648
+Eval epoch 129, loss: 0.738, acc: 0.639
+Test epoch 129, loss: 0.757, acc: 0.608, auc: 0.809, fid+: 0.3942, fid-: 0.3967, charact: 0.4768, worst_group_acc: 0.2792, per_class: {0: 0.8354430379746836, 1: 0.7591240875912408, 2: 0.27918781725888325}
+Epoch 130, loss: 1.349, acc: 0.658
+Eval epoch 130, loss: 0.829, acc: 0.637
+Test epoch 130, loss: 0.815, acc: 0.606, auc: 0.825, fid+: 0.4100, fid-: 0.4033, charact: 0.4860, worst_group_acc: 0.2716, per_class: {0: 0.7164556962025317, 1: 0.8880778588807786, 2: 0.2715736040609137}
+Epoch 131, loss: 1.364, acc: 0.642
+Eval epoch 131, loss: 0.892, acc: 0.631
+Test epoch 131, loss: 0.873, acc: 0.627, auc: 0.808, fid+: 0.6367, fid-: 0.6408, charact: 0.4593, worst_group_acc: 0.4532, per_class: {0: 0.4531645569620253, 1: 0.6618004866180048, 2: 0.6903553299492385}
+Epoch 132, loss: 1.374, acc: 0.641
+Eval epoch 132, loss: 0.702, acc: 0.646
+Test epoch 132, loss: 0.696, acc: 0.657, auc: 0.836, fid+: 0.7192, fid-: 0.6233, charact: 0.4944, worst_group_acc: 0.2911, per_class: {0: 0.2911392405063291, 1: 0.829683698296837, 2: 0.8324873096446701}
+Epoch 133, loss: 1.372, acc: 0.646
+Eval epoch 133, loss: 0.764, acc: 0.645
+Test epoch 133, loss: 0.807, acc: 0.603, auc: 0.789, fid+: 0.4700, fid-: 0.4958, charact: 0.4865, worst_group_acc: 0.3832, per_class: {0: 0.7189873417721518, 1: 0.7615571776155717, 2: 0.383248730964467}
+Epoch 134, loss: 1.352, acc: 0.639
+Eval epoch 134, loss: 0.966, acc: 0.628
+Test epoch 134, loss: 0.890, acc: 0.630, auc: 0.832, fid+: 0.5283, fid-: 0.4533, charact: 0.5373, worst_group_acc: 0.3706, per_class: {0: 0.6253164556962025, 1: 0.9172749391727494, 2: 0.37055837563451777}
+Epoch 135, loss: 1.416, acc: 0.624
+Eval epoch 135, loss: 0.763, acc: 0.620
+Test epoch 135, loss: 0.817, acc: 0.624, auc: 0.815, fid+: 0.6742, fid-: 0.6242, charact: 0.4826, worst_group_acc: 0.3924, per_class: {0: 0.3924050632911392, 1: 0.8029197080291971, 2: 0.682741116751269}
+Epoch 136, loss: 1.459, acc: 0.614
+Eval epoch 136, loss: 0.841, acc: 0.619
+Test epoch 136, loss: 0.746, acc: 0.632, auc: 0.826, fid+: 0.6783, fid-: 0.6317, charact: 0.4774, worst_group_acc: 0.3519, per_class: {0: 0.3518987341772152, 1: 0.7639902676399026, 2: 0.7081218274111675}
+Epoch 137, loss: 1.477, acc: 0.613
+Eval epoch 137, loss: 0.796, acc: 0.630
+Test epoch 137, loss: 0.775, acc: 0.643, auc: 0.814, fid+: 0.5683, fid-: 0.5692, charact: 0.4901, worst_group_acc: 0.5544, per_class: {0: 0.5544303797468354, 1: 0.8077858880778589, 2: 0.5812182741116751}
+Epoch 138, loss: 1.459, acc: 0.617
+Eval epoch 138, loss: 0.857, acc: 0.610
+Test epoch 138, loss: 0.791, acc: 0.614, auc: 0.815, fid+: 0.7233, fid-: 0.6708, charact: 0.4524, worst_group_acc: 0.2582, per_class: {0: 0.2582278481012658, 1: 0.7591240875912408, 2: 0.7715736040609137}
+Epoch 139, loss: 1.445, acc: 0.625
+Eval epoch 139, loss: 1.003, acc: 0.560
+Test epoch 139, loss: 0.947, acc: 0.583, auc: 0.789, fid+: 0.5933, fid-: 0.5908, charact: 0.4843, worst_group_acc: 0.3553, per_class: {0: 0.4911392405063291, 1: 0.8272506082725061, 2: 0.3553299492385787}
+Epoch 140, loss: 1.396, acc: 0.621
+Eval epoch 140, loss: 0.885, acc: 0.655
+Test epoch 140, loss: 0.813, acc: 0.638, auc: 0.829, fid+: 0.5025, fid-: 0.4833, charact: 0.5095, worst_group_acc: 0.3198, per_class: {0: 0.6708860759493671, 1: 0.9124087591240876, 2: 0.3197969543147208}
+Epoch 141, loss: 1.383, acc: 0.632
+Eval epoch 141, loss: 0.964, acc: 0.646
+Test epoch 141, loss: 0.884, acc: 0.632, auc: 0.824, fid+: 0.5242, fid-: 0.5350, charact: 0.4928, worst_group_acc: 0.4304, per_class: {0: 0.43037974683544306, 1: 0.8832116788321168, 2: 0.565989847715736}
+Epoch 142, loss: 1.357, acc: 0.636
+Eval epoch 142, loss: 0.848, acc: 0.638
+Test epoch 142, loss: 0.779, acc: 0.665, auc: 0.837, fid+: 0.4517, fid-: 0.4533, charact: 0.4946, worst_group_acc: 0.2893, per_class: {0: 0.7215189873417721, 1: 0.8880778588807786, 2: 0.2893401015228426}
+Epoch 143, loss: 1.450, acc: 0.613
+Eval epoch 143, loss: 1.074, acc: 0.603
+Test epoch 143, loss: 1.022, acc: 0.604, auc: 0.811, fid+: 0.4867, fid-: 0.4350, charact: 0.5229, worst_group_acc: 0.2360, per_class: {0: 0.6455696202531646, 1: 0.9172749391727494, 2: 0.23604060913705585}
+Epoch 144, loss: 1.411, acc: 0.622
+Eval epoch 144, loss: 3.988, acc: 0.448
+Test epoch 144, loss: 3.889, acc: 0.439, auc: 0.793, fid+: 0.2758, fid-: 0.2292, charact: 0.4063, worst_group_acc: 0.0305, per_class: {0: 0.24556962025316456, 1: 0.9805352798053528, 2: 0.030456852791878174}
+Epoch 145, loss: 1.422, acc: 0.627
+Eval epoch 145, loss: 0.800, acc: 0.642
+Test epoch 145, loss: 0.757, acc: 0.637, auc: 0.819, fid+: 0.5750, fid-: 0.5158, charact: 0.5257, worst_group_acc: 0.5038, per_class: {0: 0.5037974683544304, 1: 0.8491484184914841, 2: 0.5609137055837563}
+Epoch 146, loss: 1.396, acc: 0.631
+Eval epoch 146, loss: 0.783, acc: 0.636
+Test epoch 146, loss: 0.708, acc: 0.664, auc: 0.835, fid+: 0.5892, fid-: 0.5692, charact: 0.4977, worst_group_acc: 0.4633, per_class: {0: 0.46329113924050636, 1: 0.8588807785888077, 2: 0.6472081218274112}
+Epoch 147, loss: 1.367, acc: 0.641
+Eval epoch 147, loss: 0.760, acc: 0.669
+Test epoch 147, loss: 0.736, acc: 0.657, auc: 0.838, fid+: 0.5533, fid-: 0.5725, charact: 0.4823, worst_group_acc: 0.4076, per_class: {0: 0.40759493670886077, 1: 0.8807785888077859, 2: 0.6700507614213198}
+Epoch 148, loss: 1.374, acc: 0.646
+Eval epoch 148, loss: 0.831, acc: 0.632
+Test epoch 148, loss: 0.880, acc: 0.620, auc: 0.822, fid+: 0.7933, fid-: 0.6683, charact: 0.4678, worst_group_acc: 0.1924, per_class: {0: 0.19240506329113924, 1: 0.805352798053528, 2: 0.9263959390862944}
+Epoch 149, loss: 1.406, acc: 0.640
+Eval epoch 149, loss: 0.972, acc: 0.606
+Test epoch 149, loss: 0.895, acc: 0.610, auc: 0.812, fid+: 0.6783, fid-: 0.6708, charact: 0.4432, worst_group_acc: 0.3494, per_class: {0: 0.3493670886075949, 1: 0.6715328467153284, 2: 0.766497461928934}
+Best validation accuracy: 0.703
+loss: 0.617, acc: 0.682, auc: 0.856
+fid+: 0.6992, fid-: 0.5608, charact: 0.5395
+worst_group_acc: 0.5013, per_class: {0: 0.5012658227848101, 1: 0.8540145985401459, 2: 0.6700507614213198}
